@@ -1,0 +1,46 @@
+/* --- APPLY TO EVERYTHING --- */
+*{
+    font-family: 'Inconsolata', 'Georgia', sans-serif;
+    font-size: 1.05em;
+}
+
+
+/* --- BODY --- */
+body {
+    background: #000000;
+}
+
+
+/* --- HEADER --- */
+header {
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 50px;
+    display: flex;
+    height: 3em;
+    background: #CECDCD;
+}
+
+header nav {
+    margin: auto;
+}
+
+#nav-home {
+    font-size: 50px;
+    padding-left: 25px;
+}
+
+/* --- MAIN --- */
+main {
+    background: #CECDCD;
+    margin-bottom: 250px;
+}
+
+
+/* --- FOOTER --- */
+footer {
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 25px;
+    background: #CECDCD;
+}
