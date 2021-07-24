@@ -1,5 +1,6 @@
 ## Description:
-*I've always wanted my very own corner on the internet where I can share almost anything that I'd like to. This project is me making this ambition a reality for myself.*
+*I've always wanted my very own corner on the internet where I can share almost anything that I'd like to.<br>
+This project is me making this ambition a reality for myself.*
 <br>
 <br>
 
