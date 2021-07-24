@@ -1,5 +1,6 @@
 ## Description:
-*Insert Description*
+*I've always wanted my very own corner on the internet where I can share almost anything that I'd like to.<br>
+This project is me making this ambition a reality for myself.*
 <br>
 <br>
 
@@ -10,19 +11,8 @@
 <br>
 
 
-## Build:
-```markdown
-* Insert Command 1
-* Insert Command 2
-* Insert Command 3
-```
-<br>
-<br>
-
-
 ## Credits:
-* This person helped: <a href="https://example.com/">@Person</a>
-* This is reference material: <a href="https://example.com/">Example Site</a>
+* I used this material to learn Flexbox: <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">[CSS] - Guide To Flexbox</a>
 <br>
 <br>
 
