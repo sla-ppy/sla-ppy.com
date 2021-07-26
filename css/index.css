@@ -1,13 +1,19 @@
 /* --- APPLY TO EVERYTHING --- */
-*{
-    font-family: 'Inconsolata', 'Georgia', sans-serif;
-    font-size: 1.05em;
+* {
+    /* TODO: figure out a way to properly use fonts */
+    font-family: 'Unna', serif;
+    font-size: 1.15em;
 }
+
 
 
 /* --- BODY --- */
 body {
-    background: #000000;
+    background-image: linear-gradient(#202020, #161616);
+}
+
+a {
+    color: #161616;
 }
 
 
@@ -18,22 +24,25 @@ header {
     margin-bottom: 50px;
     display: flex;
     height: 3em;
-    background: #CECDCD;
+    background-image: linear-gradient(to bottom right, #ffcc00, #202020);
 }
 
 header nav {
     margin: auto;
 }
 
+
+
+/* --- NAV-HOME --- */
 #nav-home {
-    font-size: 50px;
-    padding-left: 25px;
+    font-size: 2.35em;
+    padding-left: 50px;
 }
 
 /* --- MAIN --- */
 main {
-    background: #CECDCD;
     margin-bottom: 250px;
+    background-image: linear-gradient(to bottom right, #ffcc00, #202020);
 }
 
 
@@ -41,6 +50,5 @@ main {
 footer {
     border-style: solid;
     border-width: 1px;
-    margin-bottom: 25px;
-    background: #CECDCD;
+    background-image: linear-gradient(to bottom right, #ffcc00, #202020);
 }
