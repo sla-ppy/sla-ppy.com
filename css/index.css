@@ -9,11 +9,11 @@
 
 /* --- BODY --- */
 body {
-    background-image: linear-gradient(#202020, #161616);
+    background-color: #111111;
 }
 
 a {
-    color: #161616;
+    color: #0000ee;
 }
 
 
@@ -24,7 +24,7 @@ header {
     margin-bottom: 50px;
     display: flex;
     height: 3em;
-    background-image: linear-gradient(to bottom right, #ffcc00, #202020);
+    background-color: #fffbfb;
 }
 
 header nav {
@@ -42,7 +42,7 @@ header nav {
 /* --- MAIN --- */
 main {
     margin-bottom: 250px;
-    background-image: linear-gradient(to bottom right, #ffcc00, #202020);
+    background-color: #fffbfb;
 }
 
 
@@ -50,5 +50,21 @@ main {
 footer {
     border-style: solid;
     border-width: 1px;
-    background-image: linear-gradient(to bottom right, #ffcc00, #202020);
+    background-color: #fffbfb;
+}
+
+/* --- FOOTER - CONTACT LOGOS --- */
+#discord-logo {
+    width: 48px;
+    height: 48px;
+}
+
+#telegram-logo {
+    width: 48px;
+    height: 48px;
+}
+
+#mail-logo {
+    width: 50px;
+    height: 50px;
 }
