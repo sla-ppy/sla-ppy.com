@@ -36,13 +36,13 @@ header nav {
 /* --- NAV-HOME --- */
 #nav-home {
     font-size: 2.35em;
-    padding-left: 50px;
+    padding-left: 25px;
 }
 
 /* --- MAIN --- */
 main {
-    margin-bottom: 250px;
     background-color: #fffbfb;
+    margin-bottom: 50px;
 }
 
 
