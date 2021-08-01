@@ -5,73 +5,106 @@
     font-size: 1.15em;
 }
 
+
 html, body {
     height: 100%;
+    text-shadow: 3px 3px #0f0f0f;
 }
 
-/* --- BODY --- */
+
 body {
     display: flex;
     flex-direction: column;
-    background-color: #111111;
+    margin: auto;
 
+    background-image: url("../assets/backgrounds/techno_minimal_bg.jpg");
+    color: #FF7F50;
 }
 
 a {
-    color: #0000ee;
+    color: #FF7F50;
 }
 
 
-/* --- HEADER --- */
 header {
-    border-style: solid;
-    border-width: 1px;
-    margin-bottom: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+
+    position: sticky;
+    top: 0;
     display: flex;
     height: 3em;
-    background-color: #fffbfb;
+
+    background-color: #202a30;
 }
 
 header nav {
     margin: auto;
 }
 
-
-/* --- NAV-HOME --- */
 #nav-home {
     font-size: 2.35em;
     padding-left: 25px;
-}
 
-/* --- MAIN --- */
-main {
-    background-color: #fffbfb;
-    margin-bottom: 50px;
-    flex: 1 0 auto;
+    margin-right: 10px;
 }
 
 
-/* --- FOOTER --- */
 footer {
-    border-style: solid;
-    border-width: 1px;
-    background-color: #fffbfb;
+    border-top-style: solid;
+    border-top-width: 2px;
+
     text-align: center;
     flex-shrink: 0;
+
+    background-color: #202a30;
 }
+
 
 /* --- FOOTER - CONTACT LOGOS --- */
 #discord-logo {
     width: 48px;
     height: 48px;
+
+    box-shadow: 0px 0px 10px #0f0f0f;
 }
 
 #telegram-logo {
     width: 48px;
     height: 48px;
+
+    box-shadow: 0px 0px 10px #0f0f0f;
 }
 
 #mail-logo {
     width: 50px;
     height: 50px;
+
+    box-shadow: 0px 0px 10px #0f0f0f;
+}
+
+
+/* --- INDEX.CSS SPECIFIC --- */
+.container {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.container-left-half {
+    text-align: center;
+    flex: 1;
+}
+
+.container-right-half {
+    border-style: solid;
+    border-width: 2px;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    flex: 1;
+
+    background-color: #0f0f0f;
 }
