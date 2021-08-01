@@ -60,6 +60,11 @@ footer {
     background-color: #202a30;
 }
 
+footer p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
 
 /* --- FOOTER - CONTACT LOGOS --- */
 #discord-logo {
