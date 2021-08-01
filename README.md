@@ -13,6 +13,8 @@ This project is me making this ambition a reality for myself.*
 
 ## Credits:
 * I used this material to learn Flexbox: <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">[CSS] - Guide To Flexbox</a>
+* Having the most issues with choosing the correct palette, this website proved to work best for me: <a href="https://www.canva.com/colors/color-meanings/">[Color] - Color Meanings</a>
+* For finding just the right fonts: <a href="https://fontesk.com/">[Font] Fontesk</a>
 <br>
 <br>
 
