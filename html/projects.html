@@ -14,7 +14,7 @@
       -->
     <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Unna&display=swap" rel="stylesheet">
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/main-style.css">
+    <link rel="stylesheet" href="../css/projects.css">
 
     <style>
 
@@ -22,8 +22,12 @@
 </head>
 
 <body>
+
 <header>
-    <a id="nav-home" href="index.html">Home</a>
+    <a id="nav-home" href="index.html">sla-ppy</a>
+    <p>
+        ++ your life
+    </p>
 
     <nav>
         <b><a href="about.html">About</a></b>
@@ -33,99 +37,117 @@
 </header>
 
 <!-- Projects -->
-<main>
-    <!-- Yahtzee -->
-    <a href="https://github.com/sla-ppy/yahtzee">
-        <h1>yahtzee [WIP]</h1>
-    </a>
-    <img alt="yahtzee.png" src="../assets/project_img/yahtzee.png">
-    <h2>Project Description:</h2>
-    <ul>
-        <li>Completely implemented based on Hasbroo's Yahtzee <a
-                href="https://www.hasbro.com/common/instruct/Yahtzee.pdf">rules</a>!
-        </li>
-        <li>The game is fully playable with scores, re-rolling and everything else you need.</li>
-        <li>Scoring turns is automatic based on your rolls, so there is no need to worry about doing that manually.</li>
-        <li>Display is CLI based, there is no GUI.</li>
-        <li>Developed on: <a href="https://manjaro.org/">Manjaro Linux - x86_64</a></li>
+
+<div class="container">
+    <!-- Sidebar -->
+    <aside class="container-sidebar">
+        <a href="https://github.com/sla-ppy/yahtzee">
+            <h1>yahtzee [WIP]</h1>
+        </a>
+        <a href="https://github.com/sla-ppy/Snake">
+            <h1>Snake</h1>
+        </a>
+        <a href="sla-ppy.com.html">
+            <h1>sla-ppy.com</h1>
+        </a>
+
+    </aside>
+
+    <main class="container-main">
+        <!-- Yahtzee -->
+        <a href="https://github.com/sla-ppy/yahtzee">
+            <h1>yahtzee [WIP]</h1>
+        </a>
+        <img alt="yahtzee.png" src="../assets/project_img/yahtzee.png">
+        <h2>Project Description:</h2>
+        <ul>
+            <li>Completely implemented based on Hasbroo's Yahtzee <a
+                    href="https://www.hasbro.com/common/instruct/Yahtzee.pdf">rules</a>!
+            </li>
+            <li>The game is fully playable with scores, re-rolling and everything else you need.</li>
+            <li>Scoring turns is automatic based on your rolls, so there is no need to worry about doing that
+                manually.
+            </li>
+            <li>Display is CLI based, there is no GUI.</li>
+            <li>Developed on: <a href="https://manjaro.org/">Manjaro Linux - x86_64</a></li>
+
+            <table>
+                <!-- Table Head -->
+                <thead>
+                <!-- Table Row -->
+                <tr>
+                    <th>Programming Language(s): C++</th>
+                </tr>
+                </thead>
+                <!-- Table Body -->
+                <tbody>
+                <tr>
+                    <!-- Table Element -->
+                    <td><img alt="64x64_cpp.png" src="../assets/language_logos/64x64_cpp.png"></td>
+                </tr>
+                </tbody>
+            </table>
+
+            <table>
+                <tr>
+                    <th>Dev tools:</th>
+                    <th>Git, CLion</th>
+                </tr>
+                <tbody>
+                <tr>
+                    <td>
+                        <a href="https://git-scm.com/"><img src="../assets/dev_tool_logos/git_logo_cut.png"
+                                                            alt="git_logo.png"></a>
+                        <a href="https://www.jetbrains.com/clion/"><img
+                                src="../assets/dev_tool_logos/clion_logo_cut.png"
+                                alt="clion_logo.png"></a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </ul>
+
+        <!-- Snake -->
+        <a href="https://github.com/sla-ppy/Snake"><h1>Snake</h1></a>
+        <p><img alt="snake.png" src="../assets/project_img/snake.png"></p>
+        <h2>Project Description:</h2>
+        <ul>
+            <li>Programmed without the use of any graphical libraries.</li>
+            <li>I learned about: movement, collision, game rendering</li>
+            <li>Documented thoroughly on GitHub</li>
+            <li>Programming language(s) used:</li>
+        </ul>
 
         <table>
-            <!-- Table Head -->
             <thead>
-            <!-- Table Row -->
             <tr>
-                <th>Programming Language(s): C++</th>
+                <th>C++</th>
             </tr>
             </thead>
-            <!-- Table Body -->
             <tbody>
             <tr>
-                <!-- Table Element -->
                 <td><img alt="64x64_cpp.png" src="../assets/language_logos/64x64_cpp.png"></td>
             </tr>
             </tbody>
         </table>
-
-        <table>
-            <tr>
-                <th>Dev tools:</th>
-                <th>Git, CLion</th>
-            </tr>
-            <tbody>
-            <tr>
-                <td>
-                    <a href="https://git-scm.com/"><img src="../assets/dev_tool_logos/git_logo_cut.png"
-                                                        alt="git_logo.png"></a>
-                    <a href="https://www.jetbrains.com/clion/"><img src="../assets/dev_tool_logos/clion_logo_cut.png"
-                                                                    alt="clion_logo.png"></a>
-                </td>
-            </tr>
-            </tbody>
-        </table>
-    </ul>
+        <ul>
+            <li>Developed on: Windows</li>
+            <li>Library used: WinAPI</li>
+            <li>Dev tools: VStudio2019, Git<br>
+                <br><br>
+                <br>
+            </li>
+        </ul>
 
 
-    <!-- TODO: Continue from here! -->
-
-    <!-- Snake -->
-    <h1><a href="https://github.com/sla-ppy/Snake">Snake</a></h1>
-    <p><img alt="snake.png" src="../assets/project_img/snake.png"></p>
-    <h2>Project Description:</h2>
-    <ul>
-        <li>Programmed without the use of any graphical libraries.</li>
-        <li>I learned about: movement, collision, game rendering</li>
-        <li>Documented thoroughly on GitHub</li>
-        <li>Programming language(s) used:</li>
-    </ul>
-
-    <table>
-        <thead>
-        <tr>
-            <th>C++</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td><img alt="64x64_cpp.png" src="../assets/language_logos/64x64_cpp.png"></td>
-        </tr>
-        </tbody>
-    </table>
-    <ul>
-        <li>Developed on: Windows</li>
-        <li>Library used: WinAPI</li>
-        <li>Dev tools: VStudio2019, Git<br>
-            <br><br>
-            <br>
-        </li>
-    </ul>
-
-
-    <!-- sla-ppy.com -->
-    <h1><a href="sla-ppy.com.html">sla-ppy.com</a></h1>
-    <p>
-        If you'd like to read about my journey towards the current view of the website click the header!
-    </p>
-</main>
+        <!-- sla-ppy.com -->
+        <a href="sla-ppy.com.html"><h1>sla-ppy.com</h1></a>
+        <p>
+            If you'd like to read about my journey towards the current view of the website click the header!
+        </p>
+    </main>
+    <!-- Main -->
+</div>
 
 <footer>
     <p>

@@ -1,7 +1,14 @@
+/* --- CUSTOM FONTS --- */
+@font-face {
+    font-family: gaspar;
+    src: url("../assets/fonts/gaspar/Gaspar_Regular.otf");
+}
+
+
 /* --- APPLY TO EVERYTHING --- */
 * {
     /* TODO: figure out a way to properly use fonts */
-    font-family: 'Unna', serif;
+    font-family: 'gaspar', serif ;
     font-size: 1.15em;
 }
 

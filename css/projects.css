@@ -10,7 +10,6 @@
 
 /* --- APPLY TO EVERYTHING --- */
 * {
-    /* TODO: figure out a way to properly use fonts */
     font-family: gaspar, serif;
     font-size: 1.15em;
 }
@@ -19,6 +18,15 @@
 html, body {
     height: 100%;
     text-shadow: 3px 3px #0f0f0f;
+}
+
+main {
+    padding-top: 66px;
+    font-size: 32px;
+
+    flex: 1;
+
+    background-color: #0f0f0f;
 }
 
 
@@ -42,8 +50,10 @@ header {
     border-bottom-style: solid;
     border-bottom-width: 2px;
 
-    position: sticky;
+    position: fixed;
     top: 0;
+    width: 100%;
+
     display: flex;
     height: 3em;
 
@@ -115,39 +125,49 @@ footer p {
 }
 
 
-/* --- INDEX.CSS SPECIFIC --- */
+/* --- PROJECTS.CSS SPECIFIC --- */
 .container {
     display: flex;
-
-    margin: auto;
-
-    flex-wrap: wrap;
 }
 
-.container-left-half {
-    text-align: center;
-    align-items: stretch;
-    justify-content: center;
+.container-sidebar {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
 
-    flex: 1;
+    padding-top: 80px;
+    width: 15%;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #12181c;
 }
 
-.container-left-half img {
-    height: 565px;
-    width: 652.5px;
-}
-
-.container-right-half {
-    border-style: solid;
-    border-width: 2px;
-
-    font-size: 32px;
+.container-sidebar a {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
 
     text-align: center;
     align-items: center;
     justify-content: center;
+}
 
+.container-sidebar a:hover {
+    border-color: #0f0f0f;
+
+
+    background-color: #bf5e3b;
+    color: #202a30;
+    text-shadow: 1px 1px #0f0f0f;
+    transition: background-color 0.25s ease-out 25ms
+}
+
+.container-main {
     flex: 1;
 
-    background-color: #0f0f0f;
+    overflow: auto;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
