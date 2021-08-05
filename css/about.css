@@ -18,6 +18,8 @@
 html, body {
     height: 100%;
     text-shadow: 3px 3px #0f0f0f;
+
+    text-align: center;
 }
 
 main {
@@ -122,76 +124,4 @@ footer p {
     -webkit-box-shadow: 3px 3px  #0f0f0f;);
     -o-box-shadow: 3px 3px  #0f0f0f;);
     border-radius: 100px;
-}
-
-
-/* --- PROJECTS.CSS SPECIFIC --- */
-.container {
-    display: flex;
-}
-
-.container-sidebar {
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-
-    padding-top: 75px;
-    width: 15%;
-
-    display: flex;
-    flex-direction: column;
-
-    background-color: #12181c;
-}
-
-.container-sidebar a {
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-bottom-color: #bf5e3b;
-
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-.container-sidebar a:hover {
-    border-color: #0f0f0f;
-
-
-    background-color: #bf5e3b;
-    color: #202a30;
-    text-shadow: 1px 1px #0f0f0f;
-    transition: background-color 0.50s ease-out 25ms
-}
-
-.container-sidebar-section-1-btn {
-
-}
-
-.container-main {
-    flex: 1;
-
-    overflow: auto;
-
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-/* --- PROJECT SECTIONS  --- */
-.container-all-sections {
-    flex: 1;
-}
-
-/* --- YAHTZEE --- */
-.container-section-1 {
-    /* Default State */
-}
-
-
-/* --- SNAKE --- */
-.container-section-2 {
-}
-
-/* --- SLA-PPY.COM --- */
-.container-section-3 {
 }
