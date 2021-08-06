@@ -3,6 +3,7 @@
     font-family: gaspar;
     src: url("../assets/fonts/gaspar/Gaspar_Regular.otf");
 }
+
 @font-face {
     font-family: gothamono;
     src: url("../assets/fonts/gothamono/Gothamonov0.2-Regular.otf");
@@ -43,6 +44,16 @@ body {
 
 a {
     color: #FF7F50;
+}
+
+ul {
+    font-size: 32px;
+}
+
+li {
+    font-size: 32px;
+
+    margin-bottom: 15px;
 }
 
 
@@ -95,10 +106,14 @@ footer p {
     width: 48px;
     height: 48px;
 
-    box-shadow: 3px 3px #0f0f0f;);
-    -moz-box-shadow: 3px -3px  #0f0f0f;);
-    -webkit-box-shadow: 3px 3px  #0f0f0f;);
-    -o-box-shadow: 3px 3px  #0f0f0f;);
+    box-shadow: 3px 3px #0f0f0f;
+);
+    -moz-box-shadow: 3px -3px #0f0f0f;
+);
+    -webkit-box-shadow: 3px 3px #0f0f0f;
+);
+    -o-box-shadow: 3px 3px #0f0f0f;
+);
     border-radius: 100px;
 }
 
@@ -106,10 +121,14 @@ footer p {
     width: 48px;
     height: 48px;
 
-    box-shadow: 3px 3px #0f0f0f;);
-    -moz-box-shadow: 3px -3px  #0f0f0f;);
-    -webkit-box-shadow: 3px 3px  #0f0f0f;);
-    -o-box-shadow: 3px 3px  #0f0f0f;);
+    box-shadow: 3px 3px #0f0f0f;
+);
+    -moz-box-shadow: 3px -3px #0f0f0f;
+);
+    -webkit-box-shadow: 3px 3px #0f0f0f;
+);
+    -o-box-shadow: 3px 3px #0f0f0f;
+);
     border-radius: 100px;
 }
 
@@ -117,16 +136,21 @@ footer p {
     width: 50px;
     height: 50px;
 
-    box-shadow: 3px 3px #0f0f0f;);
-    -moz-box-shadow: 3px -3px  #0f0f0f;);
-    -webkit-box-shadow: 3px 3px  #0f0f0f;);
-    -o-box-shadow: 3px 3px  #0f0f0f;);
+    box-shadow: 3px 3px #0f0f0f;
+);
+    -moz-box-shadow: 3px -3px #0f0f0f;
+);
+    -webkit-box-shadow: 3px 3px #0f0f0f;
+);
+    -o-box-shadow: 3px 3px #0f0f0f;
+);
     border-radius: 100px;
 }
 
 
+
 /* --- PROJECTS.CSS SPECIFIC --- */
-.container {
+.container-projects {
     display: flex;
 }
 
@@ -143,6 +167,9 @@ footer p {
     background-color: #12181c;
 }
 
+
+
+/* --- SIDEBAR --- */
 .container-sidebar a {
     border-bottom-style: solid;
     border-bottom-width: 2px;
@@ -163,35 +190,63 @@ footer p {
     transition: background-color 0.50s ease-out 25ms
 }
 
-.container-sidebar-section-1-btn {
 
-}
 
+/* --- PROJECT SECTIONS  --- */
 .container-main {
     flex: 1;
+}
 
-    overflow: auto;
+/* --- YAHTZEE --- */
+.container-yahtzee {
+    margin-bottom: 200px;
 
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 
-/* --- PROJECT SECTIONS  --- */
-.container-all-sections {
+.container-yahtzee-body {
+    display: flex;
+}
+
+.container-yahtzee-left-half {
     flex: 1;
 }
 
-/* --- YAHTZEE --- */
-.container-section-1 {
-    /* Default State */
+.container-yahtzee-left-half h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.container-yahtzee-left-half img {
+
+}
+
+.container-yahtzee-left-half ul {
+    margin: 15px;
+}
+
+.container-yahtzee-right-half {
+    flex: 1;
+}
+
+.container-yahtzee-right-half ul {
+    margin: 0;
 }
 
 
 /* --- SNAKE --- */
-.container-section-2 {
+.container-snake {
 }
 
-/* --- SLA-PPY.COM --- */
-.container-section-3 {
+.container-snake-body {
+    display: flex;
+}
+
+.container-snake-left-half {
+    flex: 1;
+}
+
+.container-snake-right-half {
+    flex: 1;
 }
