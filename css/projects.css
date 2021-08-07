@@ -90,12 +90,13 @@ footer {
     border-top-width: 2px;
 
     text-align: center;
-    flex-shrink: 0;
 
     background-color: #202a30;
 }
 
 footer p {
+    font-size: 0.8em;
+
     margin-top: 15px;
     margin-bottom: 10px;
 }
@@ -147,6 +148,17 @@ footer p {
     border-radius: 100px;
 }
 
+.dev-tool_logos a:hover {
+    box-shadow: 10px 10px white;
+);
+    -moz-box-shadow: 10px -10px white;
+);
+    -webkit-box-shadow: 10px 10px white;
+);
+    -o-box-shadow: 10px 10px white;
+);
+    border-radius: 1000px;
+}
 
 
 /* --- PROJECTS.CSS SPECIFIC --- */
@@ -155,9 +167,6 @@ footer p {
 }
 
 .container-sidebar {
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-
     padding-top: 75px;
     width: 15%;
 
@@ -166,7 +175,6 @@ footer p {
 
     background-color: #12181c;
 }
-
 
 
 /* --- SIDEBAR --- */
@@ -191,7 +199,6 @@ footer p {
 }
 
 
-
 /* --- PROJECT SECTIONS  --- */
 .container-main {
     flex: 1;
@@ -199,11 +206,8 @@ footer p {
 
 /* --- YAHTZEE --- */
 .container-yahtzee {
+    margin-top: 25px;
     margin-bottom: 200px;
-
-    text-align: center;
-    align-items: center;
-    justify-content: center;
 }
 
 .container-yahtzee-body {
@@ -212,22 +216,41 @@ footer p {
 
 .container-yahtzee-left-half {
     flex: 1;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-yahtzee-left-half h2 {
     margin-top: 0;
     margin-bottom: 15px;
 }
-.container-yahtzee-left-half img {
 
+.container-yahtzee-left-half img {
+    border-style: solid;
+    border-width: 1px;
 }
 
 .container-yahtzee-left-half ul {
     margin: 15px;
+    list-style-type: none;
+}
+
+.container-yahtzee-left-half li {
+    margin: 0;
+}
+
+.container-yahtzee-left-half ul img {
+    border-style: none;
 }
 
 .container-yahtzee-right-half {
     flex: 1;
+
+    padding-top: 75px;
+
+    text-align: left;
 }
 
 .container-yahtzee-right-half ul {

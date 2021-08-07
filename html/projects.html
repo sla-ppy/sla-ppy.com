@@ -16,6 +16,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/prefabs/tooltip.css">
 
     <!-- JS -->
     <script src="js/projects.js"></script>
@@ -56,29 +57,35 @@
 
         <!-- Yahtzee -->
         <div class="container-yahtzee">
-            <a href="https://github.com/sla-ppy/yahtzee">
-                <h1>yahtzee [WIP]</h1>
-            </a>
-
             <div class="container-yahtzee-body">
                 <div class="container-yahtzee-left-half">
                     <h2>Demo:</h2>
                     <img alt="yahtzee.png" src="../assets/project_img/yahtzee.png">
-
                     <ul>
-                        Programming Language(s):
-                        <br>
-                        <a href="https://www.stroustrup.com/C++.html"><img alt="64x64_cpp.png" src="../assets/language_logos/64x64_cpp.png"></a>
-                    </ul>
+                        <li>
+                            <h2>Programming Language(s):</h2>
+                            <a href="https://www.stroustrup.com/C++.html"><img alt="64x64_cpp.png"
+                                                                               src="../assets/language_logos/64x64_cpp.png"></a>
+                        </li>
 
-                    <ul>
-                        Dev tools:
-                        <br>
-                        <a href="https://git-scm.com/"><img src="../assets/dev_tool_logos/git_logo_cut.png"
-                                                                alt="git_logo.png"></a></li>
-                        <a href="https://www.jetbrains.com/clion/"><img
-                                src="../assets/dev_tool_logos/clion_logo_cut.png"
-                                alt="clion_logo.png"></a>
+                        <li>
+
+                            <h2>Dev tools:</h2>
+                            <div class="dev-tool_logos">
+                                <a href="https://git-scm.com/"><img src="../assets/dev_tool_logos/git_logo_cut.png"
+                                                                    alt="git_logo.png"></a>
+                                <a href="https://www.jetbrains.com/clion/"><img
+                                        src="../assets/dev_tool_logos/clion_logo_cut.png"
+                                        alt="clion_logo.png"></a>
+                                <a href="https://manjaro.org/"><img src="../assets/dev_tool_logos/manjaro_logo.png"
+                                                                    alt="manjaro_logo.png"></a>
+                                <a href="https://en.wikipedia.org/wiki/Command-line_interface"><img
+                                        src="../assets/dev_tool_logos/command_line_cut_logo.png"
+                                        alt="command_line_cut_logo.png"></a>
+                                <a href="https://cmake.org/"><img src="../assets/dev_tool_logos/cmake_logo.png"
+                                                                  alt="cmake_logo.png"></a>
+                            </div>
+                        </li>
                     </ul>
                 </div>
 
@@ -94,8 +101,12 @@
                             manually.
                         </li>
                         <li>Display is CLI based, there is no GUI.</li>
-                        <li>Developed on: <a href="https://manjaro.org/">Manjaro Linux - x86_64</a></li>
                     </ul>
+                    <div class="tooltip">Developed on: <a href="https://manjaro.org/">Manjaro Linux - x86-64</a>
+                        <span class="tooltiptext"><a href="https://manjaro.org/"><img
+                                src="../assets/distrib_img/neofetch_2021_08_07.png"
+                                alt="neofetch_2021_08_07.png"></a></span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -149,7 +160,7 @@
         <!-- sla-ppy.com -->
         <div class="container-sla-ppy.com">
             <!-- sla-ppy.com -->
-            <a href="sla-ppy.com.html"><h1>sla-ppy.com</h1></a>
+            <h1><a href="sla-ppy.com.html">sla-ppy.com</a></h1>
             <p>
                 If you'd like to read about my journey towards the current view of the website click the
                 header!
