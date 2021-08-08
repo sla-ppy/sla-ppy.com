@@ -1,3 +1,6 @@
+/* --- MEDIA QUERIES --- */
+
+
 /* --- CUSTOM FONTS --- */
 @font-face {
     font-family: gaspar;
@@ -7,6 +10,7 @@
     font-family: gothamono;
     src: url("../assets/fonts/gothamono/Gothamonov0.2-Regular.otf");
 }
+
 
 /* --- APPLY TO EVERYTHING --- */
 * {
@@ -36,6 +40,9 @@ a {
     color: #FF7F50;
 }
 
+a:hover {
+    color: #FF5349;
+}
 
 header {
     border-bottom-style: solid;
@@ -49,15 +56,28 @@ header {
     background-color: #202a30;
 }
 
-header nav {
-    font-size: 1em;
+
+nav {
+    font-size: 1.25em;
 
     margin: auto;
 }
 
+nav a {
+    padding: 8px;
+}
+
+
+nav a:hover {
+    color: #FF5349;
+
+    text-shadow: 1px 1px #0f0f0f;
+}
+
+
 #nav-home {
     font-size: 2.2em;
-    padding-left: 25px;
+    padding-left: 16px;
 
     margin-right: 10px;
 }
