@@ -29,8 +29,12 @@ body {
     margin: auto;
 
     background-color: #0f0f0f;
-    /* background by SVGBackgrounds.com */
     color: #FF7F50;
+}
+
+main {
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 a {
