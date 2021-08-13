@@ -2,6 +2,8 @@
 *I've always wanted my very own corner on the internet where I can share almost anything that I'd like to.<br>
 This project is me making this ambition a reality for myself.*
 
+2021.08.13 - Password authentication was removed today and I was unable to push before midnight, so I made this change because I'd like my github to look pretty!
+
 ## Demo:
 ![demo.png](assets/demo/demo.png)
 
