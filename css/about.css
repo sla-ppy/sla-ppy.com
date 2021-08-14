@@ -11,7 +11,6 @@
 
 /* --- APPLY TO EVERYTHING --- */
 * {
-    /* TODO: figure out a way to properly use fonts */
     font-family: gaspar, serif;
     font-size: 1.15em;
 }
@@ -95,9 +94,12 @@ footer {
 }
 
 footer p {
+    font-size: 0.8em;
+
     margin-top: 15px;
     margin-bottom: 10px;
 }
+
 
 
 /* --- FOOTER - CONTACT LOGOS --- */
@@ -132,4 +134,20 @@ footer p {
     -webkit-box-shadow: 3px 3px  #0f0f0f;);
     -o-box-shadow: 3px 3px  #0f0f0f;);
     border-radius: 100px;
+}
+
+/* --- ABOUT.CSS SPECIFIC --- */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container-header,
+.container-footer {
+    flex-shrink: 0;
+}
+
+.container-main {
+    flex-grow: 1;
 }

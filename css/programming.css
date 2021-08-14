@@ -3,6 +3,7 @@
     font-family: gaspar;
     src: url("../assets/fonts/gaspar/Gaspar_Regular.otf");
 }
+
 @font-face {
     font-family: gothamono;
     src: url("../assets/fonts/gothamono/Gothamonov0.2-Regular.otf");
@@ -90,6 +91,8 @@ footer {
 }
 
 footer p {
+    font-size: 0.8em;
+
     margin-top: 15px;
     margin-bottom: 10px;
 }
@@ -100,10 +103,14 @@ footer p {
     width: 48px;
     height: 48px;
 
-    box-shadow: 3px 3px #0f0f0f;);
-    -moz-box-shadow: 3px -3px  #0f0f0f;);
-    -webkit-box-shadow: 3px 3px  #0f0f0f;);
-    -o-box-shadow: 3px 3px  #0f0f0f;);
+    box-shadow: 3px 3px #0f0f0f;
+);
+    -moz-box-shadow: 3px -3px #0f0f0f;
+);
+    -webkit-box-shadow: 3px 3px #0f0f0f;
+);
+    -o-box-shadow: 3px 3px #0f0f0f;
+);
     border-radius: 100px;
 }
 
@@ -111,10 +118,14 @@ footer p {
     width: 48px;
     height: 48px;
 
-    box-shadow: 3px 3px #0f0f0f;);
-    -moz-box-shadow: 3px -3px  #0f0f0f;);
-    -webkit-box-shadow: 3px 3px  #0f0f0f;);
-    -o-box-shadow: 3px 3px  #0f0f0f;);
+    box-shadow: 3px 3px #0f0f0f;
+);
+    -moz-box-shadow: 3px -3px #0f0f0f;
+);
+    -webkit-box-shadow: 3px 3px #0f0f0f;
+);
+    -o-box-shadow: 3px 3px #0f0f0f;
+);
     border-radius: 100px;
 }
 
@@ -122,9 +133,29 @@ footer p {
     width: 50px;
     height: 50px;
 
-    box-shadow: 3px 3px #0f0f0f;);
-    -moz-box-shadow: 3px -3px  #0f0f0f;);
-    -webkit-box-shadow: 3px 3px  #0f0f0f;);
-    -o-box-shadow: 3px 3px  #0f0f0f;);
+    box-shadow: 3px 3px #0f0f0f;
+);
+    -moz-box-shadow: 3px -3px #0f0f0f;
+);
+    -webkit-box-shadow: 3px 3px #0f0f0f;
+);
+    -o-box-shadow: 3px 3px #0f0f0f;
+);
     border-radius: 100px;
+}
+
+/* --- PROGRAMMING.CSS SPECIFIC --- */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container-header,
+.container-footer {
+    flex-shrink: 0;
+}
+
+.container-main {
+    flex-grow: 1;
 }
