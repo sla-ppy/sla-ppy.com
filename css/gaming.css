@@ -172,17 +172,24 @@ footer p {
 
     /* Put a card in the next row when previous cards take all width */
     flex-wrap: wrap;
+    flex-basis: 25%;
 
     margin-left: -8px;
     margin-right: -8px;
 }
 
-.cards-items {
+.cards-item {
     /* There will be 4 cards per row */
-    flex-basis: 25%;
 
-    padding-left: 8px;
-    padding-right: 8px;
 }
 
+.cards-item img {
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 270px;
+    width: 480px;
+}
 
+.cards-item img:hover {
+    background-color: #0000ee;
+}
