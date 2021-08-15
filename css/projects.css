@@ -193,17 +193,26 @@ footer p {
 
 
 /* --- SIDEBAR --- */
-.container-sidebar a {
+.container-sidebar button {
+    border: none;
+
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #bf5e3b;
+
+    color: #FF7F50;
+    background-color: #12181c;
+
+    font-size: 1.2em;
+
+    padding: 30px;
 
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 
-.container-sidebar a:hover {
+.container-sidebar button:hover {
     border-color: #FF5349;
 
     background-color: #FF5349;
@@ -222,6 +231,7 @@ footer p {
 
 /* --- YAHTZEE --- */
 .container-yahtzee {
+
     margin-top: 25px;
     margin-bottom: 200px;
 }

@@ -1,15 +1,16 @@
-document.getElementById()
+// project.html, sidebar, button click event
+function buttonClick() {
+// First lets select the element and put it in a variable..
+    let getElement = document.getElementById("sidebar-button-1");
 
+// Let's get the button as well
+    let theButton = document.getElementById("sidebar-button-1")
 
-
-function main() {
+    theButton.addEventListener('click', function(e) {
+        getElement.style.backgroundColor = "blue";
+    });
 }
 
-if( //we check wether the DOMContentLoaded event has already fired, since app() won't execute if it has
-    document.readyState === "complete" ||
-    (document.readyState !== "loading" &&  !document.documentElement.doScroll)
-){ //if it has fired, run the callback immediately
-    main();
-}else{ //if not, add as event listener an wait for content to load, then fire app
-    document.addEventListener("DOMContentLoaded", main);
-}
+
+
+
