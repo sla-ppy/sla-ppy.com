@@ -3,6 +3,29 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="stylesheet.css">
+
+    <!-- KATEX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          // customised options
+          // • auto-render specific keys, e.g.:
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: '\\(', right: '\\)', display: false},
+            {left: '\\[', right: '\\]', display: true}
+          ],
+          // • rendering keys, e.g.:
+          throwOnError : false
+        });
+      });
+    </script>
+    <!-- KATEX -->
+
     <title>sla-ppy</title>
   </head>
   <body>
@@ -70,30 +93,32 @@
             </div>
           </div>
 
+          $$ \int f(x) dx $$
+
           <h1>Abstract:</h1>
           <p>During my years of high-school I wasn't too inspired to put effort into studying by the environment I had to be in.</p>
           <p>By the time I finished my higher vocational training in uni around 2020 I spent close to 2 years of my life finding a way to study the least amount I could.</p>
-          <p>When I enlisted to bSC on the july of 2021 I was met with far greater challenges that I have ever encountered before.</p>
+          <p>When I enlisted to bSC in 2021 july, I was met with far greater challenges that I have ever encountered before.</p>
           <p>I was struggling and it wasn't fun. Giving up felt like a choice, but it wasn't an option.</p>
           <p>So why physics? The same reason why I chose C++ as my programming language.<p>
 
 
           <div class="content_hr_top"><hr></div>
           <p>People are ever so afraid of this "difficult" subject. The select few who actually love the gist of what physics is about are the same people I aspire to be.</p>
-          <p>My goal is to show you that physics can be quite simple if you know the <b>algorithm of thinking</b>.</p>
+          <p>My goal is to show you that physics can be quite simple if you know the <b><a href="index.html">algorithm of thinking</a></b>.</p>
           <div class="content_hr_bottom"><hr></div>
 
           <h1>Physics, what is it about?</h1>
           <p>Physics to me is a way of describing our real world in the language of mathematics.</p>
           <p>However, if that would be all I would have never written this guide to begin with.</p>
           <a href="https://www.deviantart.com/erikshoemaker/art/Interstellar-Wormhole-499285698"><img src="./assets/physics_101/interstellar_wormhole.jpg" alt="interstellar_wormhole"></a>
-          <div class="img_caption"><i>Interstellar Wormhole by <b>ErikShoemaker</b></i></div>
+          <div class="img_caption"><i>Interstellar Wormhole by <b><a href="https://www.deviantart.com/erikshoemaker">ErikShoemaker</a></b></i></div>
           <p>We literally have the power to calculate the weight of our home planet just through some formulas without ever weighing it ourselves!</p>
           <p>We can measure and give meaning to the <b>speed of light</b>.</p>
           <p>Have you ever wondered how granted we take it when we push a simple chair, and it moves?</p>
           <p>With physics we can best describe what and how, but especially <b>why</b> it happens.</p>
           <a href="https://www.deviantart.com/axiomdesign/art/Atomic-544376212"><img src="./assets/physics_101/atomic.jpg" alt="atomic"></a>
-          <div class="img_caption"><i>Atomic by <b>AxiomDesign</b></i></div>
+          <div class="img_caption"><i>Atomic by <b><a href="https://www.deviantart.com/axiomdesign">AxiomDesign</a></b></i></div>
           <p>Too relevant right? What about figuring out the speed of an electron around the proton in the ways of the atom?</p>
           <p>How about figuring out how electricity will behave in any man-made circuitry?</p>
           <p>Even the screen you are reading the current text from, and the computer the screen is connected to is acting by the laws of physics.</p>
