@@ -38,6 +38,7 @@ b {
 	border: 1px solid #000000;
 	max-height: 200px;
 	max-width: 200px;
+	position: sticky;
 	overflow-y: auto;
 }
 div.block::-webkit-scrollbar {
@@ -116,10 +117,20 @@ div.block::-webkit-scrollbar {
 .content img:hover {
 	background-color: white;
 }
-.content iframe {
-	margin-top: 5%;
-	margin-bottom: 5%;
+
+.content_video {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
 }
+.content_video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 .img_caption {
 	padding-bottom: 5%;
 	text-align: center;
