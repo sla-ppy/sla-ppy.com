@@ -33,8 +33,21 @@ b {
 	text-align: center;
 	font-size: 16px;
 }
+
 .scrollables {
+	border: 1px solid #000000;
+	max-height: 200px;
+	max-width: 200px;
+	overflow-y: auto;
 }
+div.block::-webkit-scrollbar {
+	display: none;
+}
+.scrollables ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+
 /* ----------SIDEBAR---------- */
 
 /* ----------MAIN---------- */
