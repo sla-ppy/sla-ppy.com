@@ -1,30 +1,35 @@
+* {
+	font-family: 'noto sans', Roboto, 'sans';
+}
+
 body {
 	margin: 0;
 	display: flex;
 }
 
+a {
+	text-decoration: none;
+}
+
 b {
-	color: mediumpurple;
+	color: rebeccapurple;
 }
 
 /* ----------SIDEBAR---------- */
 .sidebar {
-	width: 5%;
+	width: 7%;
 	color: darkorange;
 	background-color: black;
 	top: 0;
 	position: sticky;
-}
-.home {
-	font-size: 16px;
-	top: 0;
-	position: sticky;
-}
-.scrollables {
 	max-height: 1080px;
 	overflow-y: auto;
-	top: 0;
-	position: sticky;
+}
+.home {
+	text-align: center;
+	font-size: 16px;
+}
+.scrollables {
 }
 /* ----------SIDEBAR---------- */
 
@@ -51,10 +56,13 @@ b {
 	justify-content: center;
 	font-size: 20px;
 	color: black;
-	background-color: mediumpurple;
+	background-color: darkorange;
 }
 .toc a {
 	color:  black;
+}
+.toc a:hover{
+	color: white;
 }
 .toc_uneven {
 	flex-flow: column wrap;
@@ -72,14 +80,27 @@ b {
 }
 .content h1 {
 	text-align: center;
+	padding-top: 5%;
 	font-size: 32px;
 	color: darkorange;
 }
+.content_hr_top {
+	padding-top: 2%;
+}
+.content_hr_bottom {
+	padding-bottom: 2%;
+}
 .content img {
+	padding-top: 5%;
 	max-width:100%;
 	max-height:100%;
 }
+.content iframe {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
 .img_caption {
+	padding-bottom: 5%;
 	text-align: center;
 	font-size: 14px;
 }
@@ -91,6 +112,7 @@ b {
 	flex: 1;
 	order: 4;
 	text-align: center;
+	margin-top: 5%;
 	color: black;
 	background-color: darkorange;
 }
