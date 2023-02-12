@@ -2,9 +2,11 @@
 	font-family: 'noto sans', Roboto, sans-serif;
 }
 
+
 body {
-	margin: 0;
+	height: 100vh;
 	display: flex;
+	margin: 0;
 }
 
 a {
@@ -59,6 +61,7 @@ div.block::-webkit-scrollbar {
 }
 
 .header {
+	max-height: 15%;
 	flex: 1;
 	order: 1; /* In which order to render flex items */
 	text-align: center;
