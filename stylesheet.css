@@ -3,6 +3,10 @@ body {
 	display: flex;
 }
 
+b {
+	color: mediumpurple;
+}
+
 /* ----------SIDEBAR---------- */
 .sidebar {
 	width: 5%;
