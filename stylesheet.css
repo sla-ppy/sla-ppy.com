@@ -1,0 +1,115 @@
+.piazzolla-slappy {
+  font-family: "Piazzolla", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+* {
+}
+
+html, body {
+    background-color: #0A0A0A;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #DB6E0C;  
+    font: 100% "Piazzolla", serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p {
+    padding: 0 10px;
+    line-height: 1.8;
+}
+
+ul li {
+    padding-right: 10px;
+    line-height: 1.6;
+}
+
+h3 {
+    padding: 5px 20px;
+    margin: 0;
+}
+
+div#header {
+  display: flex;
+  background-color: #0f0f0f;
+  border-bottom-width: 0.5px;
+  border-bottom-style: solid;
+}
+
+div#header h1 {
+  flex: 1;
+  height: 80px;
+  line-height: 80px;
+  margin: 0;
+  padding-left: 10px;
+  text-align: left;
+}
+
+div#header h2 {
+  flex: 2;
+  height: 80px;
+  line-height: 80px;
+  margin: 0;
+  padding-left: 10px;
+  text-align: right;
+}
+
+div#header a {
+  right: 0;
+  padding: 10px;
+  color: #832F54;
+  text-decoration: none;
+}
+
+div#header a:hover {
+  color: #DB6E0C ;
+}
+
+div#navigation {
+  height: 100%;
+  flex: 1;
+  width: 12%;
+  font-size: 14px;
+  float: left;
+  overflow-y: auto;
+  max-height: 1080px;
+  border-right-width: 0.5px;
+  border-right-style: solid;
+}
+
+div#navigation li {
+  list-style: none;
+}
+
+div#navigation ul {
+  padding-left: 15px;
+}
+
+div#main {
+  display: flex;
+}
+
+div#content {
+  flex: 2;
+  padding-top: 2%;
+  padding-left: 13%;
+  padding-right: 1%;
+}
+
+div#footer {
+  text-align: center;
+  clear: left;
+  width: 100%;
+}
+
+div#footer p {
+  padding: 20px 10px;
+  color: #DB6E0C;
+}
