@@ -62,6 +62,8 @@ div#header h2 {
   padding-left: 10px;
   padding-right: 1%;
   text-align: right;
+  background: linear-gradient(90deg, #0a0a0a 10%, #0a0a0a 35%, #832F54 100%);
+  align-items: center;
 }
 
 div#header a {
@@ -85,6 +87,10 @@ div#navigation {
   border-right-width: 5px;
   border-right-style: groove;
   border-color: #171717;
+  background-image: url(./assets/lambda.png);
+  background-repeat: no-repeat;
+  background-position-y: 5%;
+  background-position-x: 25%;
 }
 
 div#navigation li {
