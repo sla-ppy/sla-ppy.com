@@ -22,8 +22,12 @@ body {
 }
 
 p {
-    padding: 0% 1.5% 1%;
-    line-height: 1.6;
+  padding: 0% 1.5% 1%;
+  line-height: 1.6;
+}
+
+b {
+  font-weight: 750;
 }
 
 ul li {
@@ -110,14 +114,22 @@ div#navigation a:hover {
 }
 
 div#main {
-  display: flex;
+  width: 100%;
 }
 
 div#content {
-  flex: 2;
+  flex: 1;
   padding-top: 2%;
   padding-left: 13%;
   padding-right: 1%;
+}
+
+div#content img {
+  padding: 0% 1.5% 1%;
+}
+
+div#content a {
+  padding: 0% 1.5% 1%;
 }
 
 div#footer {
