@@ -68,10 +68,48 @@ div#navigation a:hover {
 
 div#MAIN {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-weight: normal;
+  margin-bottom: 2%;
+}
+
+h1 b {
+  color: #832F54;
+}
+
+h2 {
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2 b {
+  color: #832F54;
+}
+
+div#index {
   text-align: center;
 }
 
+#bottom {
+  display: inline-flex;
+}
+
+#me {
+  flex: 1;
+  text-align: let;
+  order: 2;
+}
+
+#topics {
+  flex: 1;
+  text-align: right;
+  order: 1;
+  margin-right: 3%;
+}
 
 div#footer {
   flex: 1;
@@ -84,31 +122,4 @@ div#footer {
   border-top-width: 5px;
   border-top-style: ridge;
   border-color: #171717;
-}
-
-div#uni_logos {
-  display: flex;
-  justify-content: right;
-}
-
-div#uni_logos img {
-  padding-left: 10%;
-}
-
-h1 {
-  font-weight: normal;
-  
-}
-
-h1 b {
-  color: #832F54;
-}
-
-h2 {
-  font-weight: normal;
-  
-}
-
-h2 b {
-  color: #832F54;
 }
