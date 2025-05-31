@@ -6,28 +6,14 @@
     <description>Recent content in Posts on sla-ppy.com</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 31 May 2025 19:45:33 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 31 May 2025 20:09:47 +0200</lastBuildDate>
     <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>12_test3</title>
-      <link>//localhost:1313/posts/12_test3/</link>
-      <pubDate>Sat, 31 May 2025 19:45:33 +0200</pubDate>
-      <guid>//localhost:1313/posts/12_test3/</guid>
+      <title>Its Alive!</title>
+      <link>//localhost:1313/posts/its-alive/</link>
+      <pubDate>Sat, 31 May 2025 20:09:47 +0200</pubDate>
+      <guid>//localhost:1313/posts/its-alive/</guid>
       <description></description>
-    </item>
-    <item>
-      <title>01_test2</title>
-      <link>//localhost:1313/posts/01_test2/</link>
-      <pubDate>Sat, 31 May 2025 19:45:29 +0200</pubDate>
-      <guid>//localhost:1313/posts/01_test2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>00_start</title>
-      <link>//localhost:1313/posts/00_start/</link>
-      <pubDate>Sat, 31 May 2025 19:25:05 +0200</pubDate>
-      <guid>//localhost:1313/posts/00_start/</guid>
-      <description>&lt;p&gt;This is a post! hello!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
