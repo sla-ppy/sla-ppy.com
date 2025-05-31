@@ -17,7 +17,7 @@ To solve my lack of expertise, I called together my most trustable strategists.\
 (Me and my favorite mugs of coffee, with cute drawn faces)\
 Together, we came up with a battle plan which essentially consists of:
 
-- 92 days, or 3 months spanning from June 1st till August 31th (Also )
+- 91 days, or 3 months spanning from June 1st till August 31th
 - The main goal being that I land an Embedded Software Developer position
 - A setup with dev tools and modules to base projects
 - Side focus on CI/CD, Cloud, Databases so I improve as a developer
