@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <!-- KATEX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          // customised options
+          // • auto-render specific keys, e.g.:
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: '\\(', right: '\\)', display: false},
+            {left: '\\[', right: '\\]', display: true}
+          ],
+          // • rendering keys, e.g.:
+          throwOnError : false
+        });
+      });
+    </script>
+    <!-- KATEX -->
+
+    <script>
+      document.addEventListener( "DOMContentLoaded", function() {
+        // it's a div, that holds your news
+        // it holds ul with news in li elements
+        var div = document.getElementById( "container" );
+        div.addEventListener( "scroll", function() {
+          var max_scroll = this.scrollHeight - this.clientHeight;
+          var current_scroll = this.scrollTop;
+          var bottom = 100;
+          if ( current_scroll + bottom >= max_scroll ) {
+            var ul = document.getElementsByTagName( "ul" )[ 0 ];
+            var current = parseInt( ul.dataset.current, 10 );
+            var li = document.getElementsByTagName( "li" )[ current ];
+            var new_li = li.cloneNode( true );
+            ul.appendChild( new_li );
+            ul.dataset.current = current + 1;
+          }
+        } );
+      } );
+    </script>
+
+    <title>sla-ppy/index</title>
+  </head>
+  <body>
+      <div class="sidebar">
+        <div class="home"><a href="index.html">Home</a></div>
+
+        <div class="scrollables" id="container">
+          <ul data-current="0">
+            <li><a href="cooking.html"><img src="./assets/svg/cooking_sticker_64x64.svg" alt="cooking_sticker_64x64.svg"></a></li>
+            <li><a href="music.html"><img src="./assets/svg/music_sticker_64x64.svg" alt="music_sticker_64x64.svg"></a></li>
+            <li><a href="gaming.html"><img src="./assets/svg/gaming_sticker_64x64.svg" alt="gaming_sticker_64x64.svg"></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="header">
+          <h1>Physics 101</h1>
+        </div>
+
+        <div class="content">
+          <div class="toc">
+            <ol>
+              <li><a href="https://example.com/">Abstract</a></li>
+              <li><a href="https://example.com/">Physics, what is it about?</a></li>
+              <li><a href="https://example.com/">Why do we condemn physics hard?</a></li>
+              <li><a href="https://example.com/">Do you see now?</a></li>
+              <li><a href="https://example.com/">Sources</a></li>
+            </ol>
+
+             <ol start="6">
+              <li><a href="https://example.com/">Example link</a></li>
+              <li><a href="https://example.com/">Example link</a></li>
+              <li><a href="https://example.com/">Example link</a></li>
+              <li><a href="https://example.com/">Example link</a></li>
+              <li><a href="https://example.com/">Example link</a></li>
+            </ol>
+
+            <div class="toc_uneven">
+              <ol start = 11>
+                <li><a href="https://example.com/">Sources</a></li>
+              </ol>
+            </div>
+          </div>
+
+          $$ \int f(x) dx $$
+
+          <h1>Abstract:</h1>
+          <p>During my years of high-school I wasn't too inspired to put effort into studying by the environment I had to be in.</p>
+          <p>By the time I finished my higher vocational training in uni around 2020 I spent close to 2 years of my life finding a way to study the least amount I could.</p>
+          <p>When I enlisted to bSC in 2021 july, I was met with far greater challenges that I have ever encountered before.</p>
+          <p>I was struggling and it wasn't fun. Giving up felt like a choice, but it wasn't an option.</p>
+          <p>So why physics? The same reason why I chose C++ as my programming language.<p>
+
+
+          <div class="content_hr_top"><hr></div>
+          <p>People are ever so afraid of this "difficult" subject. The select few who actually love the gist of what physics is about are the same people I aspire to be.</p>
+          <p>My goal is to show you that physics can be quite simple if you know the <b><a href="index.html">algorithm of thinking</a></b>.</p>
+          <div class="content_hr_bottom"><hr></div>
+
+          <h1>Physics, what is it about?</h1>
+          <p>Physics to me is a way of describing our real world in the language of mathematics.</p>
+          <p>However, if that would be all I would have never written this guide to begin with.</p>
+          <a href="https://www.deviantart.com/erikshoemaker/art/Interstellar-Wormhole-499285698"><img src="./assets/physics_101/interstellar_wormhole.jpg" alt="interstellar_wormhole"></a>
+          <div class="img_caption"><i>Interstellar Wormhole by <b><a href="https://www.deviantart.com/erikshoemaker">ErikShoemaker</a></b></i></div>
+          <p>We literally have the power to calculate the weight of our home planet just through some formulas without ever weighing it ourselves!</p>
+          <p>We can measure and give meaning to the <b>speed of light</b>.</p>
+          <p>Have you ever wondered how granted we take it when we push a simple chair, and it moves?</p>
+          <p>With physics we can best describe what and how, but especially <b>why</b> it happens.</p>
+          <a href="https://www.deviantart.com/axiomdesign/art/Atomic-544376212"><img src="./assets/physics_101/atomic.jpg" alt="atomic"></a>
+          <div class="img_caption"><i>Atomic by <b><a href="https://www.deviantart.com/axiomdesign">AxiomDesign</a></b></i></div>
+          <p>Too relevant right? What about figuring out the speed of an electron around the proton in the ways of the atom?</p>
+          <p>How about figuring out how electricity will behave in any man-made circuitry?</p>
+          <p>Even the screen you are reading the current text from, and the computer the screen is connected to is acting by the laws of physics.</p>
+          <p>That's not all.</p>
+
+          <div class="content_video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8NAi30ZBpJU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
+          <p><b>We could literally simulate an entire virtual world through the power of physics!</b></p>
+          <p>Physics engines in a nutshell are a huge undertaking of programs which handle the calculations for physics in video games. They aim to simulate and make some games behave <b>just like it would in our real world</b>.</p>
+          <p>What about space travel? Without, physics we would have never even travelled to another planet, whether real or virtual!</p>
+          <p>All these exist because we made it so, and by learning physics and opening towards science I hope you will find meaning.</p>
+          <p>Not so fast though, first we need to learn the basics.</p>
+
+          <h1>Why do we condemn physics hard?</h1>
+          <p>"Humans on the most basic level are lazy creatures." said my favorite professor during one of the lectures.</p>
+          <p>We like to invest the least energy into work, but we except high results no matter our invested energy.</p>
+          <p>While most judge physics by the very limited effort they have ever put into learning the topic for many people the level of abstraction they must face when they encounter physics is unlike anything else they have seen before.</p>
+          <p>In our scenario by abstraction we refer to mathematics.</p>
+          <p>But what does mathematics, a completely different aspect of science has to do with physics to begin with?</p>
+          <p>Well its quite simple, <b>the love language of physics is mathematics</b>.</p>
+          <p>To give you and idea, I will show you through defining a common way of solving problems in physics:</p>
+
+          <div class="content_hr_top"><hr></div>
+          <ol>
+            <li>Encounter a problem whether on paper  or in real life.</li>
+            <li>Gather the data we know about our problem, find our variables.</li>
+            <li>Draw the scenario of the problem in a way which is understandable to you.</li>
+            <li>Read the problem again after, make sure we understood properly and the sketch is usable.</li>
+            <li>Return to the known variables, recollect what topic the problem is about and list all known formulas which could be useful to solving the problem.</li>
+            <li>By this step, we are finished with physics. Actually solving the problem <b>requires you to do mathematics.</b></li>
+          </ol>
+          <div class="content_hr_bottom"><hr></div>
+
+          <p><i>(Later on, I will also give you a detailed example about how I would go about solving a physics problem, and the layout I prefer.)</i></p>
+
+          <h1>Do you see now?</h1>
+          <p>Most of our steps are about gathering and understanding the information, and playing out different scenarios in your head which the problem proposes until you find the one which feels right for the context.</p>
+          <p>Of course this also means that while you can learn physics and understand all the theory, known the formulas by heart but if mathematics is troublesome to you, your enjoyment from physics will be harder to find.</p>
+          <p>Dont let that scare you through, good thing about mathematics is that while there is some theory, you can get by perfectly fine with knowing some useful formulas, and the level of entry into learning, while challenging I promise it won't be without progress. That is, if you put in the effort.</p>
+          <p>I am hoping that even if you aren't completely convinced, you will be able to start studying physics and find enjoyment in being able to.</p>
+
+          <div class="footer">
+            Copyright © 2023 sla-ppy. All rights reserved.
+          </div>
+        </div>
+    </div>
+  </body>
+</html>

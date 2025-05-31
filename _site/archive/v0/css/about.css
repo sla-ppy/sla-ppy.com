@@ -1,0 +1,153 @@
+/* --- CUSTOM FONTS --- */
+@font-face {
+    font-family: gaspar;
+    src: url("../assets/fonts/gaspar/Gaspar_Regular.otf");
+}
+@font-face {
+    font-family: gothamono;
+    src: url("../assets/fonts/gothamono/Gothamonov0.2-Regular.otf");
+}
+
+
+/* --- APPLY TO EVERYTHING --- */
+* {
+    font-family: gaspar, serif;
+    font-size: 1.15em;
+}
+
+
+html, body {
+    height: 100%;
+    text-shadow: 3px 3px #0f0f0f;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+    background-color: #0f0f0f;
+    color: #FF7F50;
+}
+
+main {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+a {
+    color: #FF7F50;
+}
+
+a:hover {
+    color: #FF5349;
+}
+
+header {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+
+    position: sticky;
+    top: 0;
+    display: flex;
+    height: 3em;
+
+    background-color: #202a30;
+}
+
+
+nav {
+    font-size: 1em;
+
+    margin: auto;
+}
+
+nav a {
+    padding: 8px;
+}
+
+
+nav a:hover {
+    color: #FF5349;
+
+    text-shadow: 1px 1px #0f0f0f;
+}
+
+
+#nav-home {
+    font-size: 2.2em;
+    padding-left: 16px;
+
+    margin-right: 10px;
+}
+
+
+footer {
+    border-top-style: solid;
+    border-top-width: 2px;
+
+    text-align: center;
+    flex-shrink: 0;
+
+    background-color: #202a30;
+}
+
+footer p {
+    font-size: 0.8em;
+
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+
+/* --- FOOTER - CONTACT LOGOS --- */
+#discord-logo {
+    width: 48px;
+    height: 48px;
+
+    box-shadow: 3px 3px #0f0f0f;);
+    -moz-box-shadow: 3px -3px  #0f0f0f;);
+    -webkit-box-shadow: 3px 3px  #0f0f0f;);
+    -o-box-shadow: 3px 3px  #0f0f0f;);
+    border-radius: 100px;
+}
+
+#telegram-logo {
+    width: 48px;
+    height: 48px;
+
+    box-shadow: 3px 3px #0f0f0f;);
+    -moz-box-shadow: 3px -3px  #0f0f0f;);
+    -webkit-box-shadow: 3px 3px  #0f0f0f;);
+    -o-box-shadow: 3px 3px  #0f0f0f;);
+    border-radius: 100px;
+}
+
+#mail-logo {
+    width: 50px;
+    height: 50px;
+
+    box-shadow: 3px 3px #0f0f0f;);
+    -moz-box-shadow: 3px -3px  #0f0f0f;);
+    -webkit-box-shadow: 3px 3px  #0f0f0f;);
+    -o-box-shadow: 3px 3px  #0f0f0f;);
+    border-radius: 100px;
+}
+
+/* --- ABOUT.CSS SPECIFIC --- */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container-header,
+.container-footer {
+    flex-shrink: 0;
+}
+
+.container-main {
+    flex-grow: 1;
+}
