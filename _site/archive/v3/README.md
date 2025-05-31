@@ -1,1 +1,0 @@
-# Personal & Professional website of sla-ppy

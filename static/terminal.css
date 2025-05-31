@@ -1,0 +1,9 @@
+:root {
+    --background: #0a0a0a;
+    --foreground: #bc5206;
+    --accent: #6020c9;
+}
+
+.container {
+    max-width: 100%;
+}
