@@ -68,7 +68,7 @@ Uh, there is now a gaping hole in the other room, but let now move on to me bein
 My plans actually began on May 29th, and I wanted to share what I've been doing the past few days, too.\
 I hope you can forgive me! ;)
 
-![p2_img01.png](p2_img01.png)
+{{< image src="p2_img01.png" alt="p2_img01.png" position="center" style="border-radius: 8px;" >}}
 
 ---
 
@@ -164,7 +164,8 @@ Each Pin has 2 bits assigned to it, which are responsible for configuring the pi
 - 01 => General Purpose Output Mode\
 - 10 => Alternate Function\
 - 11 => Analog Mode => For analog signals (ADC/DAC)\
-  Whenever the MCU is reset, all the pins of different GPIO ports are defaulted to Input state
+
+Whenever the MCU is reset, all the pins of different GPIO ports are defaulted to Input state
 
 Some pins on the MCU cannot be used for all purpose, while others may be => These we call pins but not GPIO pins
 Ex.: Power pin on the MCU cannot be called a GPIO pin as we cannot set the modes of GPIO
@@ -185,10 +186,7 @@ Ex.:
 
 ```C
 if (IO_pin == HIGH) {
-    turnMotorOn();
-
-    // Bug: IO_Pin will sometimes be 0 or 1 => The motor will not work properly
-}
+    turnMotorOn(); // Bug: IO_Pin will sometimes be 0 or 1 => The motor will not work properly }
 ```
 
 **Solution:**

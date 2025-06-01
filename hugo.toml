@@ -15,13 +15,13 @@ pagination.pagerSize = 5
   contentTypeName = "posts"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 99
 
   # show selector to switch language
   showLanguageSelector = false
 
   # set theme to full screen width
-  fullWidthTheme = false
+  fullWidthTheme = true
 
   # center theme with default width
   centerTheme = false
@@ -33,21 +33,21 @@ pagination.pagerSize = 5
 
   # set post to show the last updated
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = false
+  # showLastUpdated = true
 
   # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
-  # updatedDatePrefix = "Updated"
+  # updatedDatePrefix = "Last updated:"
 
   # whether to show a page's estimated reading time
-  # readingTime = false # default
+  readingTime = true
 
   # whether to show a table of contents
   # can be overridden in a page's front-matter
-  # Toc = false # default
+  Toc = true
 
   # set title for the table of contents
   # can be overridden in a page's front-matter
-  # TocTitle = "Table of Contents" # default
+   TocTitle = "TOC:" # default
 
   # Set date/time format for posts
   # This will impact the date/time displayed on
@@ -61,7 +61,7 @@ pagination.pagerSize = 5
   # Default value (no changes needed):
   # dateFormat = "2006-01-02"
   # Example format, with date, time, and timezone abbreviation:
-  # dateFormat = "2006-01-02 3:04:06 PM MST"
+  dateFormat = "2006/01/02 - 3:04:06 PM CET"
 
 
 [params.twitter]

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>GPIO1   Pull Up My Pants, This Not Easy :: sla-ppy.com</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="GPIO 1/3 Introduction The work begins with the fundamentals of GPIO.
+Turns out, I will be exploring electronics concepts rather frequently.
+I know! I was kind of shocked myself that electronic devices work by the principles of electricity!
+I&rsquo;ve been taking notes, which I would like to refer to later on during the creation of my project based around the protocol.
+Oh, did I mention?
+I plan on creating a project for each of the protocols I explore so that I create value with the knowledge I obtain.
+" />
+<meta name="keywords" content=", " />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="//localhost:1313/posts/gpio1---pull-up-my-pants-this-not-easy/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/main.min.775ac2af004d44c22a6d000fbd1d9af529642f5cef27399d0280d180af2c2e9b.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/menu.min.310d32205bdedd6f43144e3c3273c9deecd238eba5f9108db5ea96ca0cfbe377.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/post.min.ad50c7f4d00e7975918f37fc74c6029e1959a40d66fb5b2c6564a8715e985573.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/syntax.min.e9ab635cf918bc84b901eb65c0b2caa74c9544245e3647c1af5c129896ef276e.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="//localhost:1313/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="//localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="GPIO1   Pull Up My Pants, This Not Easy">
+<meta property="og:description" content="GPIO 1/3 Introduction The work begins with the fundamentals of GPIO.
+Turns out, I will be exploring electronics concepts rather frequently.
+I know! I was kind of shocked myself that electronic devices work by the principles of electricity!
+I&rsquo;ve been taking notes, which I would like to refer to later on during the creation of my project based around the protocol.
+Oh, did I mention?
+I plan on creating a project for each of the protocols I explore so that I create value with the knowledge I obtain.
+" />
+<meta property="og:url" content="//localhost:1313/posts/gpio1---pull-up-my-pants-this-not-easy/" />
+<meta property="og:site_name" content="sla-ppy.com" />
+
+  
+  
+  <meta property="og:image" content="//localhost:1313/">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2025-06-01 22:50:54 &#43;0200 CEST" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container full">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    sla-ppy&#39;s blog
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="https://miro.com/app/board/uXjVIufPTH8=/?share_link_id=209674740433">Follow my progress</a></li>
+        
+      
+        
+          <li><a href="https://github.com/sla-ppy">GitHub</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/in/vida-miklos/">LinkedIn</a></li>
+        
+      
+        
+          <li><a href="mailto:sla-ppy-pm@protonmail.com">Mail</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="https://miro.com/app/board/uXjVIufPTH8=/?share_link_id=209674740433" >Follow my progress</a></li>
+        
+      
+        
+          <li><a href="https://github.com/sla-ppy" >GitHub</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/in/vida-miklos/" >LinkedIn</a></li>
+        
+      
+        
+          <li><a href="mailto:sla-ppy-pm@protonmail.com" >Mail</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="//localhost:1313/posts/gpio1---pull-up-my-pants-this-not-easy/">GPIO1   Pull Up My Pants, This Not Easy</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2025/06/01 - 10:50:25 PM CET</time></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="//localhost:1313/tags/"></a>&nbsp;
+      
+      #<a href="//localhost:1313/tags/"></a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+    <div class="table-of-contents">
+      <h2>
+        TOC:
+      </h2>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction"><strong>Introduction</strong></a></li>
+    <li><a href="#work-on-a-2nd-monitor-finally"><strong>Work on a 2nd monitor, finally!</strong></a></li>
+    <li><a href="#a-white-lie"><strong>A white lie</strong></a></li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#input-mode--high-impedance--hi-z-state"><strong>Input mode =&gt; High Impedance / HI-Z state</strong></a></li>
+        <li><a href="#input-mode--pull-updown-states"><strong>Input mode =&gt; Pull-up/down states</strong></a></li>
+        <li><a href="#output-mode--open-drain"><strong>Output mode =&gt; Open-drain</strong></a></li>
+        <li><a href="#open-drain-with-internal-pull-up-resistor"><strong>Open drain with internal pull-up resistor</strong></a></li>
+        <li><a href="#example-usage-of-open-drain"><strong>Example usage of Open drain</strong></a></li>
+        <li><a href="#driving-an-led-in-push-pull-configuration"><strong>Driving an LED in push-pull configuration</strong></a></li>
+        <li><a href="#gpio-programming-interace"><strong>GPIO Programming Interace</strong></a></li>
+        <li><a href="#ex-for-the-stfm32f407"><strong>Ex.: For the STFM32F407</strong></a></li>
+        <li><a href="#ex-stm32f407vg-mcu"><strong>Ex.: STM32F407VG MCU</strong></a></li>
+        <li><a href="#input-mode"><strong>Input Mode</strong></a></li>
+        <li><a href="#input-mode--foating-input"><strong>Input Mode =&gt; Foating Input</strong></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+  
+
+  <div class="post-content"><div>
+        <h1 id="gpio-13"><strong>GPIO 1/3</strong><a href="#gpio-13" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<hr>
+<h2 id="introduction"><strong>Introduction</strong><a href="#introduction" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>The work begins with the fundamentals of GPIO.<br>
+Turns out, I will be exploring electronics concepts rather frequently.<br>
+I know! I was kind of shocked myself that electronic devices work by the principles of electricity!</p>
+<p>I&rsquo;ve been taking notes, which I would like to refer to later on during the creation of my project based around the protocol.<br>
+Oh, did I mention?<br>
+I plan on creating a project for each of the protocols I explore so that I create value with the knowledge I obtain.</p>
+<p>I feel that I may have underestimated how much time I am spending on learning; hence, the day quickly ended before I blinked twice.<br>
+It was to be expected, and I am prepared to keep adjusting the course of my journey, you cannot expect to have perfect first results anyway!</p>
+<p>With gratitude, I dedicate this as a shoutout to the following Discord communities, for they let me advertise my blog and the journey I am on:</p>
+<ul>
+<li>YRAC (Young Amateurs Radio Club)</li>
+<li>Embedded Engineering</li>
+<li>8 Bit World</li>
+<li>HSBP</li>
+<li>Usagi Electric</li>
+<li>OffGridEnclave</li>
+</ul>
+<p>Thank you for those who choose to be patient with me (and also others) during my journey, and the ones who take the time to help me better understand concepts. You make a huge difference in our community, and that&rsquo;s nothing short of amazing!</p>
+<p>I&rsquo;ve got some feedback already, and I will implement an RSS feed soon on the layout soon!</p>
+<p>Some other feedback arrived stating that learning is best done by practicing.<br>
+To cement this idea, I will come up with the projects tomorrow, first thing in the morning, and get to work building something cool! \o/</p>
+<p>As it is my first blog, I feel unsure about the style I want to go for, but it is without a doubt to spread knowledge; hence, you can read the notes I took today<br>
+Terms highlighted in bold are the most important keywords to remember.</p>
+<p>(Disclaimer: My notes can potentially have errors in them; I recommend not using them as reference material, but more so as a light read!)</p>
+<p>Also!<br>
+I plan on doing a lab tour soon!<br>
+I mean, come on!<br>
+That was to be expected from an electronics nerd!!!</p>
+<h2 id="work-on-a-2nd-monitor-finally"><strong>Work on a 2nd monitor, finally!</strong><a href="#work-on-a-2nd-monitor-finally" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>While I am grateful for the monitor I am creating this post from, as a developer, it quickly gets tiresome to constantly ALT+TAB from a source of information.<br>
+To fix this issue, I am taking advantage of my dad&rsquo;s old display, which I will be installing tomorrow. (Removal alone was a piece of work!)</p>
+<p>Uh, there is now a gaping hole in the other room, but let now move on to me being a liar, and why exactly I chose to lie!</p>
+<h2 id="a-white-lie"><strong>A white lie</strong><a href="#a-white-lie" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>My plans actually began on May 29th, and I wanted to share what I&rsquo;ve been doing the past few days, too.<br>
+I hope you can forgive me! ;)</p>
+
+<img src="p2_img01.png"  alt="p2_img01.png"  class="center"  style="border-radius: 8px;"    />
+
+
+<hr>
+<h1 id="notes"><strong>Notes</strong><a href="#notes" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Pin implementation =&gt; 2 Buffers (I/O):<br>
+A buffer consists of 2 CMOS transistors (Respectively PMOS and NMOS)<br>
+<strong>Enable Line</strong> =&gt; Configured by GPIO control registers<br>
+<strong>Buffer</strong> pin =&gt; <strong>Inverter</strong> =&gt; <strong>Output pin</strong> =&gt; 101 or 010 =&gt; <strong>&ldquo;Whats on the I/O buffer originally will be on the I/O pin&rdquo;</strong><br>
+<strong>Input buffer</strong> =&gt; Invert the <strong>Output buffer</strong> vertically</p>
+<h3 id="input-mode--high-impedance--hi-z-state"><strong>Input mode =&gt; High Impedance / HI-Z state</strong><a href="#input-mode--high-impedance--hi-z-state" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p><strong>Floating state</strong> =&gt; The pin is floating because the input is unfixed<br>
+After powering on most MCU&rsquo;s by default all GPIO pins are <strong>Input mode with HI-Z</strong><br>
+Keeping the pin in floating state can lead to higher power consumption as it becomes susceptible to picking up circuit voltage noise we call this <strong>Leakage Current</strong><br>
+The value of leakage is defined by the <strong>Indeterminate Region</strong> of the voltage</p>
+<h3 id="input-mode--pull-updown-states"><strong>Input mode =&gt; Pull-up/down states</strong><a href="#input-mode--pull-updown-states" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>The floating state is avoided by introducing internal resistors<br>
+Internal resistor <strong>Pull-up state</strong> =&gt; Rᵢ is active<br>
+Internal resistor <strong>Pull-down state</strong> =&gt; Rₑ is active<br>
+Internal resistors are configured in the GPIO port&rsquo;s registers<br>
+The value of internal resistors are fixed (10kΩ - 50kΩ) and exact values are found in the reference manual of the MCU<br>
+Its always safe to keep unused GPIO pins in one of the states so we avoid leaking current</p>
+<h3 id="output-mode--open-drain"><strong>Output mode =&gt; Open-drain</strong><a href="#output-mode--open-drain" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Open drain output is when we remove T1 (PMOS) from the buffer<br>
+On its own it can only pull down =&gt; Its either GND or Floating<br>
+We introduce a pull-up resistor to the floating state</p>
+<h3 id="open-drain-with-internal-pull-up-resistor"><strong>Open drain with internal pull-up resistor</strong><a href="#open-drain-with-internal-pull-up-resistor" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Configure inside MCU GPIO registers<br>
+Open drain with external pull-up resistor<br>
+Add component externally by hand<br>
+Driving an LED in open drain<br>
+Activate internal resistor =&gt; Connect LED to pin</p>
+<h3 id="example-usage-of-open-drain"><strong>Example usage of Open drain</strong><a href="#example-usage-of-open-drain" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>I2C bus =&gt; SDA (Serial Data pin) and SCL (Serial Clock pin), they are both open drain configured<br>
+To use the bus properly, we have to provide internal or external pull-up resistors for each pin<br>
+The correct value of the resistors for the I2C bus depends on the total capacitance on the bus, the frequency at which the bus works. (Generally 4.7kΩ to 10kΩ works)<br>
+Output mode =&gt; Push-pull configuration<br>
+GPIO ports by default are input mode<br>
+If we configure any pin as output mode, by default it will be push-pull configurated<br>
+Its called push-pull because the output is pulled actively between 1 and 0 between T1 and T2 transistors</p>
+<h3 id="driving-an-led-in-push-pull-configuration"><strong>Driving an LED in push-pull configuration</strong><a href="#driving-an-led-in-push-pull-configuration" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>No pull-up resistor is needed, LED is connected through a current-limiting resistor</p>
+<h3 id="gpio-programming-interace"><strong>GPIO Programming Interace</strong><a href="#gpio-programming-interace" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Each GPIO port is governed by many registers\</p>
+<ul>
+<li><strong>Direction / Mode register</strong> =&gt; Set direction or mode as I/O, analog, etc.\</li>
+<li><strong>Input data register</strong> =&gt; Read data from port\</li>
+<li><strong>Output data register</strong> =&gt; Write to port<br>
+All GPIO registers are connected over a <strong>system bus</strong> to the CPU<br>
+Ports label ex.: GPIOA ~ GPIOI, but usually <strong>GPIOx</strong> where x</li>
+</ul>
+<h3 id="ex-for-the-stfm32f407"><strong>Ex.: For the STFM32F407</strong><a href="#ex-for-the-stfm32f407" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li>GPIO ports are connected over AHB1 to the CPU\</li>
+<li><strong>AHB1</strong> =&gt; <strong>Main system bus</strong> which operates at max 168 MHz clock speed\</li>
+<li>9 Ports =&gt; Each port has all of the registers as found in the MCU&rsquo;s datasheet</li>
+</ul>
+<p>Register details are in the reference manual, not in the datasheet!<br>
+Reference manual helps understanding various bit fields of the register<br>
+These details are important, it gives us an idea how to control the peripheral<br>
+The last sub-section is for the register map in the sections for registers =&gt; Offset address, base address, etc.</p>
+<h3 id="ex-stm32f407vg-mcu"><strong>Ex.: STM32F407VG MCU</strong><a href="#ex-stm32f407vg-mcu" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p><strong>Register name</strong>: GPIOx_MODER, where x = A~I<br>
+<strong>Address offset</strong>: 0x00 =&gt; No offset<br>
+<strong>Reset values</strong> \</p>
+<ul>
+<li>Port A =&gt; 0xA800 0000\</li>
+<li>Port B =&gt; Some other value\</li>
+<li>Other ports =&gt; 0x00&hellip;\</li>
+</ul>
+<p>When the MCU undergoes a <strong>System Reset</strong>, <strong>Power-on reset</strong>, <strong>Power-down reset</strong> these are the default values afterwards<br>
+Each GPIO port has 16 pins =&gt; Pin15-Pin0\</p>
+<p>Each Pin has 2 bits assigned to it, which are responsible for configuring the pin&rsquo;s mode according to the table below:\</p>
+<ul>
+<li>00 =&gt; Input (reset state)\</li>
+<li>01 =&gt; General Purpose Output Mode\</li>
+<li>10 =&gt; Alternate Function\</li>
+<li>11 =&gt; Analog Mode =&gt; For analog signals (ADC/DAC)\</li>
+</ul>
+<p>Whenever the MCU is reset, all the pins of different GPIO ports are defaulted to Input state</p>
+<p>Some pins on the MCU cannot be used for all purpose, while others may be =&gt; These we call pins but not GPIO pins
+Ex.: Power pin on the MCU cannot be called a GPIO pin as we cannot set the modes of GPIO</p>
+<h3 id="input-mode"><strong>Input Mode</strong><a href="#input-mode" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li>The output driver is disabled</li>
+<li>TTL Schmitt trigger is enabled</li>
+<li>Whatever the I/O state the pin is in will be read to the input data register for every AHB1 clock cycle, and the register will be updated, where the firmware can read the value</li>
+<li>The pull-up/down resistors are disabled</li>
+</ul>
+<h3 id="input-mode--foating-input"><strong>Input Mode =&gt; Foating Input</strong><a href="#input-mode--foating-input" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>The output driver is disabled =&gt; Any random noise of the MCU of our board will affect the value we are reading into the input register
+This open circuit has the potential to corrupt the data in our input data register, which means that whatever data we read from the I/O pin may not be correct!</p>
+<p>Ex.:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C" data-lang="C"><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="n">IO_pin</span> <span class="o">==</span> <span class="n">HIGH</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">turnMotorOn</span><span class="p">();</span> <span class="c1">// Bug: IO_Pin will sometimes be 0 or 1 =&gt; The motor will not work properly }
+</span></span></span></code></pre></div><p><strong>Solution:</strong></p>
+<ul>
+<li>Activate the pull-up resistor =&gt; The I/O pin is not floating anymore as it is held at VDD</li>
+<li>There are now proper states for both HIGH and LOW</li>
+</ul>
+<p>The value of the pull-up/down resistor can be found in the datasheet (ie.: I/O static characteristic)
+Weak pull-up/down resistor =&gt; A resistor which allows very less current across it</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+    
+    
+      <a href="//localhost:1313/posts/its-alive/" class="button inline next">
+         [<span class="button__text">Its Alive!</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
