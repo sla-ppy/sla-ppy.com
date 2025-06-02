@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:46519/</loc>
+    <loc>//localhost:36207/</loc>
     <lastmod>2025-06-01T22:50:54+02:00</lastmod>
   </url><url>
-    <loc>//localhost:46519/posts/gpio1---pull-up-my-pants-this-not-easy/</loc>
+    <loc>//localhost:36207/posts/gpio1---pull-up-my-pants-this-not-easy/</loc>
     <lastmod>2025-06-01T22:50:54+02:00</lastmod>
   </url><url>
-    <loc>//localhost:46519/posts/</loc>
+    <loc>//localhost:36207/posts/</loc>
     <lastmod>2025-06-01T22:50:54+02:00</lastmod>
   </url><url>
-    <loc>//localhost:46519/posts/its-alive/</loc>
+    <loc>//localhost:36207/posts/its-alive/</loc>
     <lastmod>2025-05-31T20:09:47+02:00</lastmod>
   </url><url>
-    <loc>//localhost:46519/about/</loc>
+    <loc>//localhost:36207/about/</loc>
   </url><url>
-    <loc>//localhost:46519/categories/</loc>
+    <loc>//localhost:36207/categories/</loc>
   </url><url>
-    <loc>//localhost:46519/tags/</loc>
+    <loc>//localhost:36207/tags/</loc>
   </url>
 </urlset>
