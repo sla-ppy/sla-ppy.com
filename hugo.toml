@@ -115,6 +115,11 @@ pagination.pagerSize = 5
           identifier = "email"
           name = "Mail"
           url = "mailto:sla-ppy-pm@protonmail.com"
+        [[languages.en.menu.main]]
+          identifier = "rss"
+          name = "Subscribe to RSS"
+          url = "/index.xml"
+
 
 [module]
   # In case you would like to make changes to the theme and keep it locally in you repository,
