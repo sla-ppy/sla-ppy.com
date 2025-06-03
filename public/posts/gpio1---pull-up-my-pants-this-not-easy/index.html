@@ -336,9 +336,9 @@ Its called push-pull because the output is pulled actively between 1 and 0 betwe
 <h3 id="gpio-programming-interace"><strong>GPIO Programming Interace</strong><a href="#gpio-programming-interace" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p>Each GPIO port is governed by many registers</p>
 <ul>
-<li><strong>Direction / Mode register</strong> =&gt; Set direction or mode as I/O, analog, etc.\</li>
-<li><strong>Input data register</strong> =&gt; Read data from port\</li>
-<li><strong>Output data register</strong> =&gt; Write to port<br>
+<li><strong>Direction / Mode register</strong> =&gt; Set direction or mode as I/O, analog, etc.</li>
+<li><strong>Input data register</strong> =&gt; Read data from port</li>
+<li><strong>Output data register</strong> =&gt; Write to port
 All GPIO registers are connected over a <strong>system bus</strong> to the CPU<br>
 Ports label ex.: GPIOA ~ GPIOI, but usually <strong>GPIOx</strong> where x</li>
 </ul>
@@ -363,7 +363,7 @@ The last sub-section is for the register map in the sections for registers =&gt;
 </ul>
 <p>When the MCU undergoes a <strong>System Reset</strong>, <strong>Power-on reset</strong>, <strong>Power-down reset</strong> these are the default values afterwards<br>
 Each GPIO port has 16 pins =&gt; Pin15-Pin0</p>
-<p>Each Pin has 2 bits assigned to it, which are responsible for configuring the pin&rsquo;s mode according to the table below:\</p>
+<p>Each Pin has 2 bits assigned to it, which are responsible for configuring the pin&rsquo;s mode according to the table below:</p>
 <ul>
 <li>00 =&gt; Input (reset state)</li>
 <li>01 =&gt; General Purpose Output Mode</li>

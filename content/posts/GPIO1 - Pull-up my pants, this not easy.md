@@ -128,9 +128,9 @@ No pull-up resistor is needed, LED is connected through a current-limiting resis
 
 Each GPIO port is governed by many registers
 
-- **Direction / Mode register** => Set direction or mode as I/O, analog, etc.\
-- **Input data register** => Read data from port\
-- **Output data register** => Write to port\
+- **Direction / Mode register** => Set direction or mode as I/O, analog, etc.
+- **Input data register** => Read data from port
+- **Output data register** => Write to port
   All GPIO registers are connected over a **system bus** to the CPU\
   Ports label ex.: GPIOA ~ GPIOI, but usually **GPIOx** where x
 
@@ -158,7 +158,7 @@ The last sub-section is for the register map in the sections for registers => Of
 When the MCU undergoes a **System Reset**, **Power-on reset**, **Power-down reset** these are the default values afterwards\
 Each GPIO port has 16 pins => Pin15-Pin0
 
-Each Pin has 2 bits assigned to it, which are responsible for configuring the pin's mode according to the table below:\
+Each Pin has 2 bits assigned to it, which are responsible for configuring the pin's mode according to the table below:
 
 - 00 => Input (reset state)
 - 01 => General Purpose Output Mode
