@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on sla-ppy.com</title>
-    <link>//localhost:36207/posts/</link>
+    <link>//localhost:1313/posts/</link>
     <description>Recent content in Posts on sla-ppy.com</description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>sla-ppy-pm@protonmail.com (sla-ppy)</managingEditor>
     <webMaster>sla-ppy-pm@protonmail.com (sla-ppy)</webMaster>
     <lastBuildDate>Sun, 01 Jun 2025 22:50:54 +0200</lastBuildDate>
-    <atom:link href="//localhost:36207/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GPIO1   Pull Up My Pants, This Not Easy</title>
-      <link>//localhost:36207/posts/gpio1---pull-up-my-pants-this-not-easy/</link>
+      <link>//localhost:1313/posts/gpio1---pull-up-my-pants-this-not-easy/</link>
       <pubDate>Sun, 01 Jun 2025 22:50:54 +0200</pubDate><author>sla-ppy-pm@protonmail.com (sla-ppy)</author>
-      <guid>//localhost:36207/posts/gpio1---pull-up-my-pants-this-not-easy/</guid>
+      <guid>//localhost:1313/posts/gpio1---pull-up-my-pants-this-not-easy/</guid>
       <description>&lt;h1 id=&#34;gpio-13&#34;&gt;&lt;strong&gt;GPIO 1/3&lt;/strong&gt;&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The work begins with the fundamentals of GPIO.&lt;br&gt;&#xA;Turns out, I will be exploring electronics concepts rather frequently.&lt;br&gt;&#xA;I know! I was kind of shocked myself that electronic devices work by the principles of electricity!&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been taking notes, which I would like to refer to later on during the creation of my project based around the protocol.&lt;br&gt;&#xA;Oh, did I mention?&lt;br&gt;&#xA;I plan on creating a project for each of the protocols I explore so that I create value with the knowledge I obtain.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Its Alive!</title>
-      <link>//localhost:36207/posts/its-alive/</link>
+      <link>//localhost:1313/posts/its-alive/</link>
       <pubDate>Sat, 31 May 2025 20:09:47 +0200</pubDate><author>sla-ppy-pm@protonmail.com (sla-ppy)</author>
-      <guid>//localhost:36207/posts/its-alive/</guid>
+      <guid>//localhost:1313/posts/its-alive/</guid>
       <description>&lt;p&gt;If you are reading this, then Hugo is helping on my domain!&lt;/p&gt;</description>
     </item>
   </channel>
