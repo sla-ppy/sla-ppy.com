@@ -68,7 +68,7 @@ Uh, there is now a gaping hole in the other room, but let now move on to me bein
 My plans actually began on May 29th, and I wanted to share what I've been doing the past few days, too.\
 I hope you can forgive me! ;)
 
-{{< image src="p2_img01.png" alt="p2_img01.png" position="center" style="border-radius: 8px;" >}}
+![p2_img01.png](/p2_img01.png)
 
 ---
 
