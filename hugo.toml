@@ -129,9 +129,6 @@ pagination.pagerSize = 5
 [params.author]
     email = 'sla-ppy-pm@protonmail.com'
     name = 'sla-ppy'
-    linkedin = 'https://www.linkedin.com/in/vida-miklos/'
-    github = 'https://github.com/sla-ppy'
-    discord = 'sla_ppy'
 
 # RSS output
 [outputs]

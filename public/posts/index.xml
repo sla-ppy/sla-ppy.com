@@ -24,5 +24,12 @@
       <guid>//localhost:1313/posts/its-alive/</guid>
       <description>&lt;p&gt;If you are reading this, then Hugo is helping on my domain!&lt;/p&gt;</description>
     </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>sla-ppy-pm@protonmail.com (sla-ppy)</author>
+      <guid>//localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;hello-it-is-my-privilege-to-see-you-here&#34;&gt;&lt;strong&gt;Hello, it is my privilege to see you here!&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;In 2025, requirements towards juniors for entry-level developer positions have reached new peaks, which often scare away the majority of potential recruits.&lt;/p&gt;&#xA;&lt;h2 id=&#34;who-am-i&#34;&gt;&lt;strong&gt;Who am I?&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;My name is Miklós, and I became a graduate of Computer Science Engineering in February.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-this-site-for&#34;&gt;&lt;strong&gt;What is this site for?&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;I spent the first few months after graduation with job hunting that was met with mild success and plenty of mistakes.&lt;br&gt;&#xA;The reality is that being a graduate alone is not enough on its own.&lt;br&gt;&#xA;Which I was aware of since I spent most of my free-time during my uni years working on projects that interested me to figure out what I am truly passionate for.&lt;br&gt;&#xA;Still, the industry of 2025 requires different skills than the ones I currently possess.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
