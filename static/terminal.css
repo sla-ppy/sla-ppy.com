@@ -3,3 +3,10 @@
     --foreground: #F9771A;
     --accent: #a786f3;
 }
+
+:root {
+  --first-tone:var(--accent);
+  --second-tone:color-mix(in srgb, var(--accent) 100%, transparent);
+  --comment:color-mix(in srgb, var(--foreground) 100%, transparent)
+}
+

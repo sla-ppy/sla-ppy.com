@@ -63,10 +63,6 @@ pagination.pagerSize = 5
   # Example format, with date, time, and timezone abbreviation:
   dateFormat = "2006/01/02 - 3:04:06 PM CET"
 
-[params.author]
-    email = 'sla-ppy-pm@protonmail.com'
-    name = 'sla-ppy'
-
 [params.twitter]
   # set Twitter handles for Twitter cards
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
@@ -128,6 +124,16 @@ pagination.pagerSize = 5
 [[module.imports]]
   path = 'github.com/panr/hugo-theme-terminal/v4'
 
+
+# Defines what the RSS includes as author information
+[params.author]
+    email = 'sla-ppy-pm@protonmail.com'
+    name = 'sla-ppy'
+    linkedin = 'https://www.linkedin.com/in/vida-miklos/'
+    github = 'https://github.com/sla-ppy'
+    discord = 'sla_ppy'
+
+# RSS output
 [outputs]
   home = ['html', 'rss']
   section = ['html', 'rss']
