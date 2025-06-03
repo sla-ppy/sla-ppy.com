@@ -101,7 +101,7 @@ pagination.pagerSize = 5
           url = "/about"
         [[languages.en.menu.main]]
           identifier = "miro"
-          name = "Follow my progress"
+          name = "Follow my progress on Miro!"
           url = "https://miro.com/app/board/uXjVIufPTH8=/?share_link_id=209674740433"
         [[languages.en.menu.main]]
           identifier = "github"

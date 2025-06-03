@@ -147,7 +147,7 @@ I plan on creating a project for each of the protocols I explore so that I creat
         
       
         
-          <li><a href="https://miro.com/app/board/uXjVIufPTH8=/?share_link_id=209674740433">Follow my progress</a></li>
+          <li><a href="https://miro.com/app/board/uXjVIufPTH8=/?share_link_id=209674740433">Follow my progress on Miro!</a></li>
         
       
         
@@ -180,7 +180,7 @@ I plan on creating a project for each of the protocols I explore so that I creat
         
       
         
-          <li><a href="https://miro.com/app/board/uXjVIufPTH8=/?share_link_id=209674740433" >Follow my progress</a></li>
+          <li><a href="https://miro.com/app/board/uXjVIufPTH8=/?share_link_id=209674740433" >Follow my progress on Miro!</a></li>
         
       
         
@@ -234,10 +234,7 @@ I plan on creating a project for each of the protocols I explore so that I creat
     <li><a href="#introduction"><strong>Introduction</strong></a></li>
     <li><a href="#work-on-a-2nd-monitor-finally"><strong>Work on a 2nd monitor, finally!</strong></a></li>
     <li><a href="#a-white-lie"><strong>A white lie</strong></a></li>
-  </ul>
-
-  <ul>
-    <li>
+    <li><a href="#notes"><strong>Notes:</strong></a>
       <ul>
         <li><a href="#input-mode--high-impedance--hi-z-state"><strong>Input mode =&gt; High Impedance / HI-Z state</strong></a></li>
         <li><a href="#input-mode--pull-updown-states"><strong>Input mode =&gt; Pull-up/down states</strong></a></li>
@@ -298,7 +295,7 @@ To fix this issue, I am taking advantage of my dad&rsquo;s old display, which I 
 I hope you can forgive me! ;)</p>
 <p><img src="/p2_img01.png" alt="p2_img01.png"></p>
 <hr>
-<h1 id="notes"><strong>Notes</strong><a href="#notes" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="notes"><strong>Notes:</strong><a href="#notes" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <p>Pin implementation =&gt; 2 Buffers (I/O):<br>
 A buffer consists of 2 CMOS transistors (Respectively PMOS and NMOS)<br>
 <strong>Enable Line</strong> =&gt; Configured by GPIO control registers<br>
@@ -337,7 +334,7 @@ Its called push-pull because the output is pulled actively between 1 and 0 betwe
 <h3 id="driving-an-led-in-push-pull-configuration"><strong>Driving an LED in push-pull configuration</strong><a href="#driving-an-led-in-push-pull-configuration" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p>No pull-up resistor is needed, LED is connected through a current-limiting resistor</p>
 <h3 id="gpio-programming-interace"><strong>GPIO Programming Interace</strong><a href="#gpio-programming-interace" class="hanchor" ariaLabel="Anchor">#</a> </h3>
-<p>Each GPIO port is governed by many registers\</p>
+<p>Each GPIO port is governed by many registers</p>
 <ul>
 <li><strong>Direction / Mode register</strong> =&gt; Set direction or mode as I/O, analog, etc.\</li>
 <li><strong>Input data register</strong> =&gt; Read data from port\</li>
@@ -347,8 +344,8 @@ Ports label ex.: GPIOA ~ GPIOI, but usually <strong>GPIOx</strong> where x</li>
 </ul>
 <h3 id="ex-for-the-stfm32f407"><strong>Ex.: For the STFM32F407</strong><a href="#ex-for-the-stfm32f407" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <ul>
-<li>GPIO ports are connected over AHB1 to the CPU\</li>
-<li><strong>AHB1</strong> =&gt; <strong>Main system bus</strong> which operates at max 168 MHz clock speed\</li>
+<li>GPIO ports are connected over AHB1 to the CPU</li>
+<li><strong>AHB1</strong> =&gt; <strong>Main system bus</strong> which operates at max 168 MHz clock speed</li>
 <li>9 Ports =&gt; Each port has all of the registers as found in the MCU&rsquo;s datasheet</li>
 </ul>
 <p>Register details are in the reference manual, not in the datasheet!<br>
@@ -358,20 +355,20 @@ The last sub-section is for the register map in the sections for registers =&gt;
 <h3 id="ex-stm32f407vg-mcu"><strong>Ex.: STM32F407VG MCU</strong><a href="#ex-stm32f407vg-mcu" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p><strong>Register name</strong>: GPIOx_MODER, where x = A~I<br>
 <strong>Address offset</strong>: 0x00 =&gt; No offset<br>
-<strong>Reset values</strong> \</p>
+<strong>Reset values</strong></p>
 <ul>
-<li>Port A =&gt; 0xA800 0000\</li>
-<li>Port B =&gt; Some other value\</li>
-<li>Other ports =&gt; 0x00&hellip;\</li>
+<li>Port A =&gt; 0xA800 0000</li>
+<li>Port B =&gt; Some other value</li>
+<li>Other ports =&gt; 0x00&hellip;</li>
 </ul>
 <p>When the MCU undergoes a <strong>System Reset</strong>, <strong>Power-on reset</strong>, <strong>Power-down reset</strong> these are the default values afterwards<br>
-Each GPIO port has 16 pins =&gt; Pin15-Pin0\</p>
+Each GPIO port has 16 pins =&gt; Pin15-Pin0</p>
 <p>Each Pin has 2 bits assigned to it, which are responsible for configuring the pin&rsquo;s mode according to the table below:\</p>
 <ul>
-<li>00 =&gt; Input (reset state)\</li>
-<li>01 =&gt; General Purpose Output Mode\</li>
-<li>10 =&gt; Alternate Function\</li>
-<li>11 =&gt; Analog Mode =&gt; For analog signals (ADC/DAC)\</li>
+<li>00 =&gt; Input (reset state)</li>
+<li>01 =&gt; General Purpose Output Mode</li>
+<li>10 =&gt; Alternate Function</li>
+<li>11 =&gt; Analog Mode =&gt; For analog signals (ADC/DAC)</li>
 </ul>
 <p>Whenever the MCU is reset, all the pins of different GPIO ports are defaulted to Input state</p>
 <p>Some pins on the MCU cannot be used for all purpose, while others may be =&gt; These we call pins but not GPIO pins
@@ -388,8 +385,9 @@ Ex.: Power pin on the MCU cannot be called a GPIO pin as we cannot set the modes
 This open circuit has the potential to corrupt the data in our input data register, which means that whatever data we read from the I/O pin may not be correct!</p>
 <p>Ex.:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C" data-lang="C"><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="n">IO_pin</span> <span class="o">==</span> <span class="n">HIGH</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nf">turnMotorOn</span><span class="p">();</span> <span class="c1">// Bug: IO_Pin will sometimes be 0 or 1 =&gt; The motor will not work properly }
-</span></span></span></code></pre></div><p><strong>Solution:</strong></p>
+</span></span><span class="line"><span class="cl">    <span class="nf">turnMotorOn</span><span class="p">();</span> <span class="c1">// Bug: IO_Pin will sometimes be 0 or 1 =&gt; The motor will not work properly
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span>
+</span></span></code></pre></div><p><strong>Solution:</strong></p>
 <ul>
 <li>Activate the pull-up resistor =&gt; The I/O pin is not floating anymore as it is held at VDD</li>
 <li>There are now proper states for both HIGH and LOW</li>

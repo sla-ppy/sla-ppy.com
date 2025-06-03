@@ -72,7 +72,7 @@ I hope you can forgive me! ;)
 
 ---
 
-# **Notes**
+## **Notes:**
 
 Pin implementation => 2 Buffers (I/O):\
 A buffer consists of 2 CMOS transistors (Respectively PMOS and NMOS)\
@@ -126,7 +126,7 @@ No pull-up resistor is needed, LED is connected through a current-limiting resis
 
 ### **GPIO Programming Interace**
 
-Each GPIO port is governed by many registers\
+Each GPIO port is governed by many registers
 
 - **Direction / Mode register** => Set direction or mode as I/O, analog, etc.\
 - **Input data register** => Read data from port\
@@ -136,8 +136,8 @@ Each GPIO port is governed by many registers\
 
 ### **Ex.: For the STFM32F407**
 
-- GPIO ports are connected over AHB1 to the CPU\
-- **AHB1** => **Main system bus** which operates at max 168 MHz clock speed\
+- GPIO ports are connected over AHB1 to the CPU
+- **AHB1** => **Main system bus** which operates at max 168 MHz clock speed
 - 9 Ports => Each port has all of the registers as found in the MCU's datasheet
 
 Register details are in the reference manual, not in the datasheet!\
@@ -149,21 +149,21 @@ The last sub-section is for the register map in the sections for registers => Of
 
 **Register name**: GPIOx_MODER, where x = A~I\
 **Address offset**: 0x00 => No offset\
-**Reset values** \
+**Reset values**
 
-- Port A => 0xA800 0000\
-- Port B => Some other value\
-- Other ports => 0x00...\
+- Port A => 0xA800 0000
+- Port B => Some other value
+- Other ports => 0x00...
 
 When the MCU undergoes a **System Reset**, **Power-on reset**, **Power-down reset** these are the default values afterwards\
-Each GPIO port has 16 pins => Pin15-Pin0\
+Each GPIO port has 16 pins => Pin15-Pin0
 
 Each Pin has 2 bits assigned to it, which are responsible for configuring the pin's mode according to the table below:\
 
-- 00 => Input (reset state)\
-- 01 => General Purpose Output Mode\
-- 10 => Alternate Function\
-- 11 => Analog Mode => For analog signals (ADC/DAC)\
+- 00 => Input (reset state)
+- 01 => General Purpose Output Mode
+- 10 => Alternate Function
+- 11 => Analog Mode => For analog signals (ADC/DAC)
 
 Whenever the MCU is reset, all the pins of different GPIO ports are defaulted to Input state
 
@@ -186,7 +186,8 @@ Ex.:
 
 ```C
 if (IO_pin == HIGH) {
-    turnMotorOn(); // Bug: IO_Pin will sometimes be 0 or 1 => The motor will not work properly }
+    turnMotorOn(); // Bug: IO_Pin will sometimes be 0 or 1 => The motor will not work properly
+}
 ```
 
 **Solution:**
