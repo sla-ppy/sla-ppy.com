@@ -15,28 +15,254 @@
       <link>//localhost:1313/posts/lab-tour--mystery-parcel/</link>
       <pubDate>Wed, 04 Jun 2025 18:07:59 +0200</pubDate><author>sla-ppy-pm@protonmail.com (sla-ppy)</author>
       <guid>//localhost:1313/posts/lab-tour--mystery-parcel/</guid>
-      <description>&lt;h1 id=&#34;lab-tour--mystery-parcel&#34;&gt;&lt;strong&gt;Lab Tour &amp;amp; Mystery Parcel&lt;/strong&gt;&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;da-lab&#34;&gt;&lt;strong&gt;Da Lab&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Naturally, as promised and with alot of excitement involved, I present to you!&#xA;The two main areas of where majority of my work happens, including their peripherals too:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/post_images/2/main_desk.jpg&#34; alt=&#34;/post_images/2/main_desk.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;(In hindsight, I didn&amp;rsquo;t have a second monitor before this journey. To cement the idea of change, I installed it with the help of my mother so I have a much easier time reading datasheets and documentation.)&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;lab-tour--mystery-parcel&#34;&gt;&lt;strong&gt;Lab Tour &amp;amp; Mystery Parcel&lt;/strong&gt;&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;da-lab&#34;&gt;&lt;strong&gt;Da Lab&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Naturally, as promised and with a lot of excitement involved, I present to you!
+The two main areas where the majority of my work happens, including their peripherals too:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/post_images/2/main_desk.jpg&#34; alt=&#34;/post_images/2/main_desk.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;(In hindsight, I didn&amp;rsquo;t have a second monitor before this journey. To cement the idea of change, I installed it with the help of my mother, so I have a much easier time reading datasheets and documentation.)&lt;/p&gt;
+&lt;p&gt;With a bit of spoiler included (as you can already see the prepared embed setup), this is where I spend a few hours of my day (98.74% of my professional and free time).&lt;/p&gt;
+&lt;p&gt;On the right, you can see the fruits of my labor during the last 1 year of my life (in 2024), which is essentially the closest storage system I created to store components with a clear structure. The majority of most useful and common components are accessible to me within arm&amp;rsquo;s reach, such as resistors (1.2Ω ~ 10MΩ), pins, diodes (1N4001&amp;hellip;1N4004), transistors, copper for coils, solder, LEDs, etc.&lt;/p&gt;
+&lt;p&gt;On the left there is my favorite expense, which got me into 3D printing the most. It&amp;rsquo;s a Bambulab A1 Mini that surprisingly allows me to 3D print (unlike most of its competitors, which would rather want you to spend time tinkering on the printer itself, rather than model and create stuff).&lt;/p&gt;
+&lt;p&gt;In-between there&amp;rsquo;s my beloved compooter, which does the beep and the boop.&lt;br&gt;
+Now, onto my favorite place, the workbench!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/post_images/2/workbench.jpg&#34; alt=&#34;/post_images/2/workbench.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The thing about electronics is that while you see some crazy setups over the internet with some crazy price tags on instruments, you do not really need a lot to do well or get by in the hobby. Sadly, you do need a starting budget to have an easier time, but you can absolutely also get by with just a multimeter and a soldering iron if you are new!&lt;/p&gt;
+&lt;p&gt;To give you an idea of what instruments I consider essential and useful to have, I will now list them to see what parameters I work with, if you&amp;rsquo;d like to replicate:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.radiomuseum.org/r/fokgyem_dc_power_supply_tr_9253.html&#34;&gt;Fokgyem - D.C. Transistor Power Supply, Type TR-9253&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This 20-kilo beast was part of one of my trade deals that I got secondhand from an electronics expert. It most definitely will outlive me! Since it&amp;rsquo;s an analog power supply, I have to be very careful with using it, otherwise it can cause all kinds of ruckus.&lt;br&gt;
+&lt;em&gt;&lt;strong&gt;Parameters: Single channel, 30V, 2.5A output&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/post_images/2/analog_power_supply.jpg&#34; alt=&#34;/post_images/2/analog_power_supply.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.radiomuseum.org/r/racal_universal_counter_timer_9904.html&#34;&gt;Racal-Dana 9904M - Universal Counter Timer&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Bought from a radio amateur, I was convinced there wouldn&amp;rsquo;t be an issue with this instrument as the seller was trustworthy to me.&lt;br&gt;
+&lt;em&gt;&lt;strong&gt;Parameters: 2 channels, 10Hz-50Mhz frequency range&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/post_images/2/frequency_counter.jpg&#34; alt=&#34;/post_images/2/frequency_counter.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.farnell.com/datasheets/1703005.pdf&#34;&gt;HAMEG(Rohde&amp;amp;Scwarz) HM400 Analog Oscilloscope&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;While there are definitely better scopes out on the market, especially considering how cheap a 2-4 channel, 100 MHz scope is, this one does the job for me perfectly. If I need to see further, I can always upgrade to the next instrument, but to tell you the truth, I love this analog scope with all my heart.&lt;br&gt;
+&lt;em&gt;&lt;strong&gt;Parameters: 2 channels, 40 MHz&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/post_images/2/oscilloscope.jpg&#34; alt=&#34;/post_images/2/oscilloscope.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.barkacssarok.hu/uzlet/szerszamok/keziszerszamok/meroeszkoz/multimeter/digitalis-multimeter3/&#34;&gt;Digital Multimeter 313 185139&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;While there are better brands like UNI-T, it was gifted to me by my dad, which is why it is the most precious digital multimeter to me.\&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/post_images/2/multimeter.jpg&#34; alt=&#34;/post_images/2/multimeter.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.ycdtools.com/LeadFree-Soldering-Station/products_11_en.html&#34;&gt;YCD-938A&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Sadly, I couldn&amp;rsquo;t find information on the original, but I linked a newer model that is similar to the one I have. Parameters wise it&amp;rsquo;s similar, but by looks it has digital controls. You really do not need the highest quality, hyper-super newest model Weller iron to get work done. I believe this tool was bought for around 60 euros tops.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/post_images/2/soldering_station.jpg&#34; alt=&#34;/post_images/2/soldering_station.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;And&amp;hellip; that&amp;rsquo;s it! There is not much more to see on my workbench; otherwise, some cool parts here and there! I will occasionally show you some vintage things I have around here, because I plan on fiddling around with some of them.\&lt;/p&gt;
+&lt;p&gt;After the lab was clean and ready to be used, I put out the order for my embedded setup, then I awaited its arrival.&lt;/p&gt;
+&lt;h2 id=&#34;da-parcel&#34;&gt;Da Parcel&lt;/h2&gt;
+&lt;p&gt;It took exactly a day for the parcel to show up, and I wanted to share this weird anomaly on my way to picking up the parcel.\&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/post_images/2/two_towers.jpg&#34; alt=&#34;/post_images/2/two_towers.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s the &amp;ldquo;Two Towers&amp;rdquo;, the &amp;ldquo;All Seeing Eye&amp;rdquo; and its servant! Just kidding, these stork babies were adorable, and they are frequent neighbors to us in the summer. :)&lt;br&gt;
+Oh yes, but to more important matters! The parcel, of course!&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/post_images/2/mystery_parcel_arrival.jpg&#34; alt=&#34;/post_images/2/mystery_parcel_arrival.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In all its, brown cardboard, shiny tape reinforced glory! The not-so-secret-and-really-obvious contents inside! Ahhh&amp;hellip; the childhood excitement, such as the one you have on Christmas. Shiny! Let&amp;rsquo;s unpack it asap.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/post_images/2/parcel_contents.jpg&#34; alt=&#34;/post_images/2/parcel_contents.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It contains a list of modules and the development tools I picked with the help of ChatGPT. While I like to talk against using it, there are some tasks I prefer using LLM&amp;rsquo;s for, and that is to help with tasks such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Compare two dev. tools and tell me its capabilities&lt;/li&gt;
+&lt;li&gt;Tell me what protocols both dev. tools support, so I can make sure I cover all protocols and I have access to multiple project ideas throughout my journey&lt;/li&gt;
+&lt;li&gt;Recommend me modules which can be used and built on to practice the protocols with&lt;/li&gt;
+&lt;li&gt;Also suggest project ideas to me according to my list of devtools, the protocol list, and also what modules I picked afterward&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With that out of the way, however, and the contents being unpacked, I organized everything into a tiny little box, which is resting on my main desk, ready to be used for the next months!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/post_images/2/embed_setup.jpg&#34; alt=&#34;/post_images/2/embed_setup.jpg&#34;&gt;&lt;/p&gt;
+</description>
     </item>
     <item>
       <title>GPIO1 - Pull Up My Pants, This Not Easy</title>
       <link>//localhost:1313/posts/gpio1---pull-up-my-pants-this-not-easy/</link>
       <pubDate>Sun, 01 Jun 2025 22:50:54 +0200</pubDate><author>sla-ppy-pm@protonmail.com (sla-ppy)</author>
       <guid>//localhost:1313/posts/gpio1---pull-up-my-pants-this-not-easy/</guid>
-      <description>&lt;h1 id=&#34;gpio-13&#34;&gt;&lt;strong&gt;GPIO 1/3&lt;/strong&gt;&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The work begins with the fundamentals of GPIO.&lt;br&gt;&#xA;Turns out, I will be exploring electronics concepts rather frequently.&lt;br&gt;&#xA;I know! I was kind of shocked myself that electronic devices work by the principles of electricity!&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been taking notes, which I would like to refer to later on during the creation of my project based around the protocol.&lt;br&gt;&#xA;Oh, did I mention?&lt;br&gt;&#xA;I plan on creating a project for each of the protocols I explore so that I create value with the knowledge I obtain.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;gpio-13&#34;&gt;&lt;strong&gt;GPIO 1/3&lt;/strong&gt;&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The work begins with the fundamentals of GPIO.&lt;br&gt;
+Turns out, I will be exploring electronics concepts rather frequently.&lt;br&gt;
+I know! I was kind of shocked myself that electronic devices work by the principles of electricity!&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve been taking notes, which I would like to refer to later on during the creation of my project based around the protocol.&lt;br&gt;
+Oh, did I mention?&lt;br&gt;
+I plan on creating a project for each of the protocols I explore so that I create value with the knowledge I obtain.&lt;/p&gt;
+&lt;p&gt;I feel that I may have underestimated how much time I am spending on learning; hence, the day quickly ended before I blinked twice.&lt;br&gt;
+It was to be expected, and I am prepared to keep adjusting the course of my journey, you cannot expect to have perfect first results anyway!&lt;/p&gt;
+&lt;p&gt;With gratitude, I dedicate this as a shoutout to the following Discord communities, for they let me advertise my blog and the journey I am on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;YRAC (Young Amateurs Radio Club)&lt;/li&gt;
+&lt;li&gt;Embedded Engineering&lt;/li&gt;
+&lt;li&gt;8 Bit World&lt;/li&gt;
+&lt;li&gt;HSBP&lt;/li&gt;
+&lt;li&gt;Usagi Electric&lt;/li&gt;
+&lt;li&gt;OffGridEnclave&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thank you for those who choose to be patient with me (and also others) during my journey, and the ones who take the time to help me better understand concepts. You make a huge difference in our community, and that&amp;rsquo;s nothing short of amazing!&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve got some feedback already, and I will implement an RSS feed soon on the layout soon!&lt;/p&gt;
+&lt;p&gt;Some other feedback arrived stating that learning is best done by practicing.&lt;br&gt;
+To cement this idea, I will come up with the projects tomorrow, first thing in the morning, and get to work building something cool! \o/&lt;/p&gt;
+&lt;p&gt;As it is my first blog, I feel unsure about the style I want to go for, but it is without a doubt to spread knowledge; hence, you can read the notes I took today&lt;br&gt;
+Terms highlighted in bold are the most important keywords to remember.&lt;/p&gt;
+&lt;p&gt;(Disclaimer: My notes can potentially have errors in them; I recommend not using them as reference material, but more so as a light read!)&lt;/p&gt;
+&lt;p&gt;Also!&lt;br&gt;
+I plan on doing a lab tour soon!&lt;br&gt;
+I mean, come on!&lt;br&gt;
+That was to be expected from an electronics nerd!!!&lt;/p&gt;
+&lt;h2 id=&#34;work-on-a-2nd-monitor-finally&#34;&gt;&lt;strong&gt;Work on a 2nd monitor, finally!&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;While I am grateful for the monitor I am creating this post from, as a developer, it quickly gets tiresome to constantly ALT+TAB from a source of information.&lt;br&gt;
+To fix this issue, I am taking advantage of my dad&amp;rsquo;s old display, which I will be installing tomorrow. (Removal alone was a piece of work!)&lt;/p&gt;
+&lt;p&gt;Uh, there is now a gaping hole in the other room, but let now move on to me being a liar, and why exactly I chose to lie!&lt;/p&gt;
+&lt;h2 id=&#34;a-white-lie&#34;&gt;&lt;strong&gt;A white lie&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;My plans actually began on May 29th, and I wanted to share what I&amp;rsquo;ve been doing the past few days, too.&lt;br&gt;
+I hope you can forgive me! ;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/post_images/1/p2_img01.png&#34; alt=&#34;/post_images/1/p2_img01.png&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;notes&#34;&gt;&lt;strong&gt;Notes:&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Pin implementation =&amp;gt; 2 Buffers (I/O):&lt;br&gt;
+A buffer consists of 2 CMOS transistors (Respectively PMOS and NMOS)&lt;br&gt;
+&lt;strong&gt;Enable Line&lt;/strong&gt; =&amp;gt; Configured by GPIO control registers&lt;br&gt;
+&lt;strong&gt;Buffer&lt;/strong&gt; pin =&amp;gt; &lt;strong&gt;Inverter&lt;/strong&gt; =&amp;gt; &lt;strong&gt;Output pin&lt;/strong&gt; =&amp;gt; 101 or 010 =&amp;gt; &lt;strong&gt;&amp;ldquo;Whats on the I/O buffer originally will be on the I/O pin&amp;rdquo;&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Input buffer&lt;/strong&gt; =&amp;gt; Invert the &lt;strong&gt;Output buffer&lt;/strong&gt; vertically&lt;/p&gt;
+&lt;h3 id=&#34;input-mode--high-impedance--hi-z-state&#34;&gt;&lt;strong&gt;Input mode =&amp;gt; High Impedance / HI-Z state&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Floating state&lt;/strong&gt; =&amp;gt; The pin is floating because the input is unfixed&lt;br&gt;
+After powering on most MCU&amp;rsquo;s by default all GPIO pins are &lt;strong&gt;Input mode with HI-Z&lt;/strong&gt;&lt;br&gt;
+Keeping the pin in floating state can lead to higher power consumption as it becomes susceptible to picking up circuit voltage noise we call this &lt;strong&gt;Leakage Current&lt;/strong&gt;&lt;br&gt;
+The value of leakage is defined by the &lt;strong&gt;Indeterminate Region&lt;/strong&gt; of the voltage&lt;/p&gt;
+&lt;h3 id=&#34;input-mode--pull-updown-states&#34;&gt;&lt;strong&gt;Input mode =&amp;gt; Pull-up/down states&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The floating state is avoided by introducing internal resistors&lt;br&gt;
+Internal resistor &lt;strong&gt;Pull-up state&lt;/strong&gt; =&amp;gt; Rᵢ is active&lt;br&gt;
+Internal resistor &lt;strong&gt;Pull-down state&lt;/strong&gt; =&amp;gt; Rₑ is active&lt;br&gt;
+Internal resistors are configured in the GPIO port&amp;rsquo;s registers&lt;br&gt;
+The value of internal resistors are fixed (10kΩ - 50kΩ) and exact values are found in the reference manual of the MCU&lt;br&gt;
+Its always safe to keep unused GPIO pins in one of the states so we avoid leaking current&lt;/p&gt;
+&lt;h3 id=&#34;output-mode--open-drain&#34;&gt;&lt;strong&gt;Output mode =&amp;gt; Open-drain&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Open drain output is when we remove T1 (PMOS) from the buffer&lt;br&gt;
+On its own it can only pull down =&amp;gt; Its either GND or Floating&lt;br&gt;
+We introduce a pull-up resistor to the floating state&lt;/p&gt;
+&lt;h3 id=&#34;open-drain-with-internal-pull-up-resistor&#34;&gt;&lt;strong&gt;Open drain with internal pull-up resistor&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Configure inside MCU GPIO registers&lt;br&gt;
+Open drain with external pull-up resistor&lt;br&gt;
+Add component externally by hand&lt;br&gt;
+Driving an LED in open drain&lt;br&gt;
+Activate internal resistor =&amp;gt; Connect LED to pin&lt;/p&gt;
+&lt;h3 id=&#34;example-usage-of-open-drain&#34;&gt;&lt;strong&gt;Example usage of Open drain&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;I2C bus =&amp;gt; SDA (Serial Data pin) and SCL (Serial Clock pin), they are both open drain configured&lt;br&gt;
+To use the bus properly, we have to provide internal or external pull-up resistors for each pin&lt;br&gt;
+The correct value of the resistors for the I2C bus depends on the total capacitance on the bus, the frequency at which the bus works. (Generally 4.7kΩ to 10kΩ works)&lt;br&gt;
+Output mode =&amp;gt; Push-pull configuration&lt;br&gt;
+GPIO ports by default are input mode&lt;br&gt;
+If we configure any pin as output mode, by default it will be push-pull configurated&lt;br&gt;
+Its called push-pull because the output is pulled actively between 1 and 0 between T1 and T2 transistors&lt;/p&gt;
+&lt;h3 id=&#34;driving-an-led-in-push-pull-configuration&#34;&gt;&lt;strong&gt;Driving an LED in push-pull configuration&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;No pull-up resistor is needed, LED is connected through a current-limiting resistor&lt;/p&gt;
+&lt;h3 id=&#34;gpio-programming-interace&#34;&gt;&lt;strong&gt;GPIO Programming Interace&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Each GPIO port is governed by many registers&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Direction / Mode register&lt;/strong&gt; =&amp;gt; Set direction or mode as I/O, analog, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Input data register&lt;/strong&gt; =&amp;gt; Read data from port&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Output data register&lt;/strong&gt; =&amp;gt; Write to port
+All GPIO registers are connected over a &lt;strong&gt;system bus&lt;/strong&gt; to the CPU&lt;br&gt;
+Ports label ex.: GPIOA ~ GPIOI, but usually &lt;strong&gt;GPIOx&lt;/strong&gt; where x&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ex-for-the-stfm32f407&#34;&gt;&lt;strong&gt;Ex.: For the STFM32F407&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;GPIO ports are connected over AHB1 to the CPU&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AHB1&lt;/strong&gt; =&amp;gt; &lt;strong&gt;Main system bus&lt;/strong&gt; which operates at max 168 MHz clock speed&lt;/li&gt;
+&lt;li&gt;9 Ports =&amp;gt; Each port has all of the registers as found in the MCU&amp;rsquo;s datasheet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Register details are in the reference manual, not in the datasheet!&lt;br&gt;
+Reference manual helps understanding various bit fields of the register&lt;br&gt;
+These details are important, it gives us an idea how to control the peripheral&lt;br&gt;
+The last sub-section is for the register map in the sections for registers =&amp;gt; Offset address, base address, etc.&lt;/p&gt;
+&lt;h3 id=&#34;ex-stm32f407vg-mcu&#34;&gt;&lt;strong&gt;Ex.: STM32F407VG MCU&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Register name&lt;/strong&gt;: GPIOx_MODER, where x = A~I&lt;br&gt;
+&lt;strong&gt;Address offset&lt;/strong&gt;: 0x00 =&amp;gt; No offset&lt;br&gt;
+&lt;strong&gt;Reset values&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Port A =&amp;gt; 0xA800 0000&lt;/li&gt;
+&lt;li&gt;Port B =&amp;gt; Some other value&lt;/li&gt;
+&lt;li&gt;Other ports =&amp;gt; 0x00&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When the MCU undergoes a &lt;strong&gt;System Reset&lt;/strong&gt;, &lt;strong&gt;Power-on reset&lt;/strong&gt;, &lt;strong&gt;Power-down reset&lt;/strong&gt; these are the default values afterwards&lt;br&gt;
+Each GPIO port has 16 pins =&amp;gt; Pin15-Pin0&lt;/p&gt;
+&lt;p&gt;Each Pin has 2 bits assigned to it, which are responsible for configuring the pin&amp;rsquo;s mode according to the table below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;00 =&amp;gt; Input (reset state)&lt;/li&gt;
+&lt;li&gt;01 =&amp;gt; General Purpose Output Mode&lt;/li&gt;
+&lt;li&gt;10 =&amp;gt; Alternate Function&lt;/li&gt;
+&lt;li&gt;11 =&amp;gt; Analog Mode =&amp;gt; For analog signals (ADC/DAC)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Whenever the MCU is reset, all the pins of different GPIO ports are defaulted to Input state&lt;/p&gt;
+&lt;p&gt;Some pins on the MCU cannot be used for all purpose, while others may be =&amp;gt; These we call pins but not GPIO pins
+Ex.: Power pin on the MCU cannot be called a GPIO pin as we cannot set the modes of GPIO&lt;/p&gt;
+&lt;h3 id=&#34;input-mode&#34;&gt;&lt;strong&gt;Input Mode&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The output driver is disabled&lt;/li&gt;
+&lt;li&gt;TTL Schmitt trigger is enabled&lt;/li&gt;
+&lt;li&gt;Whatever the I/O state the pin is in will be read to the input data register for every AHB1 clock cycle, and the register will be updated, where the firmware can read the value&lt;/li&gt;
+&lt;li&gt;The pull-up/down resistors are disabled&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;input-mode--foating-input&#34;&gt;&lt;strong&gt;Input Mode =&amp;gt; Foating Input&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The output driver is disabled =&amp;gt; Any random noise of the MCU of our board will affect the value we are reading into the input register
+This open circuit has the potential to corrupt the data in our input data register, which means that whatever data we read from the I/O pin may not be correct!&lt;/p&gt;
+&lt;p&gt;Ex.:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-C&#34; data-lang=&#34;C&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;IO_pin&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;HIGH&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nf&#34;&gt;turnMotorOn&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Bug: IO_Pin will sometimes be 0 or 1 =&amp;gt; The motor will not work properly
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Activate the pull-up resistor =&amp;gt; The I/O pin is not floating anymore as it is held at VDD&lt;/li&gt;
+&lt;li&gt;There are now proper states for both HIGH and LOW&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The value of the pull-up/down resistor can be found in the datasheet (ie.: I/O static characteristic)
+Weak pull-up/down resistor =&amp;gt; A resistor which allows very less current across it&lt;/p&gt;
+</description>
     </item>
     <item>
       <title>Its Alive!</title>
       <link>//localhost:1313/posts/its-alive/</link>
       <pubDate>Sat, 31 May 2025 20:09:47 +0200</pubDate><author>sla-ppy-pm@protonmail.com (sla-ppy)</author>
       <guid>//localhost:1313/posts/its-alive/</guid>
-      <description>&lt;p&gt;If you are reading this, then Hugo is helping on my domain!&lt;/p&gt;</description>
+      <description>&lt;p&gt;If you are reading this, then Hugo is helping on my domain!&lt;/p&gt;
+</description>
     </item>
     <item>
       <title></title>
       <link>//localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>sla-ppy-pm@protonmail.com (sla-ppy)</author>
       <guid>//localhost:1313/about/</guid>
-      <description>&lt;h2 id=&#34;hello-it-is-my-privilege-to-see-you-here&#34;&gt;&lt;strong&gt;Hello, it is my privilege to see you here!&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;In 2025, requirements towards juniors for entry-level developer positions have reached new peaks, which often scare away the majority of potential recruits.&lt;/p&gt;&#xA;&lt;h2 id=&#34;who-am-i&#34;&gt;&lt;strong&gt;Who am I?&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;My name is Miklós, and I became a graduate of Computer Science Engineering in February.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-this-site-for&#34;&gt;&lt;strong&gt;What is this site for?&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;I spent the first few months after graduation with job hunting that was met with mild success and plenty of mistakes.&lt;br&gt;&#xA;The reality is that being a graduate alone is not enough on its own.&lt;br&gt;&#xA;Which I was aware of since I spent most of my free-time during my uni years working on projects that interested me to figure out what I am truly passionate for.&lt;br&gt;&#xA;Still, the industry of 2025 requires different skills than the ones I currently possess.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;hello-it-is-my-privilege-to-see-you-here&#34;&gt;&lt;strong&gt;Hello, it is my privilege to see you here!&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In 2025, requirements towards juniors for entry-level developer positions have reached new peaks, which often scare away the majority of potential recruits.&lt;/p&gt;
+&lt;h2 id=&#34;who-am-i&#34;&gt;&lt;strong&gt;Who am I?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;My name is Miklós, and I became a graduate of Computer Science Engineering in February.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-this-site-for&#34;&gt;&lt;strong&gt;What is this site for?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;I spent the first few months after graduation with job hunting that was met with mild success and plenty of mistakes.&lt;br&gt;
+The reality is that being a graduate alone is not enough on its own.&lt;br&gt;
+Which I was aware of since I spent most of my free-time during my uni years working on projects that interested me to figure out what I am truly passionate for.&lt;br&gt;
+Still, the industry of 2025 requires different skills than the ones I currently possess.&lt;/p&gt;
+&lt;p&gt;To solve my lack of expertise, I called together my most trustable strategists.&lt;br&gt;
+(Me and my favorite mugs of coffee, with cute drawn faces)&lt;br&gt;
+Together, we came up with a battle plan which essentially consists of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;91 days, or 3 months, spanning from June 1st till August 31st&lt;/li&gt;
+&lt;li&gt;The main goal being that I land an embedded software developer position&lt;/li&gt;
+&lt;li&gt;A setup with dev tools and modules to base projects&lt;/li&gt;
+&lt;li&gt;Side focus on CI/CD, cloud and databases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;how-will-you-get-it-done&#34;&gt;&lt;strong&gt;How will you get it done?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The battle plan is available here, which you can freely view at any time:&lt;br&gt;
+&lt;a href=&#34;https://miro.com/app/board/uXjVIufPTH8=/?share_link_id=673154583990&#34;&gt;Ultimate Super Secret Battle Plan For World Dominance&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Along with adaptation to turn the plan into reality.&lt;br&gt;
+This blog is part of my solution to the problem.&lt;br&gt;
+It was created to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Connect with the community&lt;/li&gt;
+&lt;li&gt;Provide myself with feedback and long-term motivation&lt;/li&gt;
+&lt;li&gt;To inspire people in similar situations, and to keep them hopeful&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;is-the-goal-too-ambitious&#34;&gt;&lt;strong&gt;Is the goal too ambitious?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Mayhaps!&lt;br&gt;
+Is it possible?&lt;br&gt;
+Let&amp;rsquo;s find out together!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://sla-ppy.com/&#34;&gt;Click me to see my current progress as blog posts!&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
   </channel>
 </rss>
