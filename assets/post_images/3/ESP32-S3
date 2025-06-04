@@ -1,0 +1,73 @@
+USB1 => TYPEC-304-BCP16 (USB-C Input) =>
+USB2 => TYPEC-304-BCP16 (USB-C Input) =>
+
+VBUSB(5V) => CH343P (USB to High-Speed Serial Port Chip) => VDD5 (Pin3)
+
+ESP32-S3-WROOM-1
+
+VDD33 => LED2 => U0RXD
+VDD33 => LED2 => U0TXD
+
+DTR (Data Terminal Ready) => Q1 (SS8050-G) => CHIP_PU
+RTS (Request To Send) => Q2 => GPIO0
+Q1 (SS8050-G)
+
+U1 => XL-5050RGBC-WS2812B
+U2 =>
+U3 => AMS1117-3.3
+
+## 2 USB's! Now what?
+
+It seems that USB1's VBUS pins are connected to a bus named VBUSB.
+This feeds directly into the CH343P chip, where pin#3 is VDD5.
+Pin#9 is called VBUS, and it is also connected to the VBUSB bus.
+Pin#1 is named VIO, which means Virtual I/O and while its also connected to GND, the output of VDD33 is being lead tooo, you guessed it!
+The pin#2 of ESP32-S3-WROOM-I, which is 3V3, and that's its power tap!
+
+Why did I even consider reading the schematic to figure this out?
+I have no idea, but it was really fun.
+The real reason was that I wanted to start by reading the schematic, so I actually get to know this new tool.
+The original idea was that USB1 and USB2 differ in purpose, but it seems that both USB's actually power our device on, so we can move on to simpler things!
+
+
+## Platformio configuration with my board
+
+Initially I tried looking for my board, and I did manage to find an option called:
+```esp32-s3-devkitc-1```.
+This option seemed fine, however the build process failed with the linking error:
+```undefined reference to `app_main```
+It was also rather weird that my board is named N16R8, which should refer to something important.
+The  **esp32-s3-devkitc-1** itself has many variatons and configurations, and mine came with 16MB's of flash memory and 8MB's of PSRAM.
+
+Turns out that this board is not available as a default preset from Platformio's list of choices.
+To fix this, I had to go on a small journey and look up what answers I can find online, where I found the following configuration I added to the **Platform.ini** file:
+
+Source: https://github.com/sivar2311/ESP32-S3-PlatformIO-Flash-and-PSRAM-configurations?tab=readme-ov-file#esp32-s3-wroom-11u-n16r8
+
+```
+```
+
+
+
+Solution was not these problems, but that:
+main.c contained the
+int main() {} function, which is wrong
+i had to use app_main() {} as the main function, because thats what
+
+
+I was also missing `99-platformio-udev.rules`, platformio was complaining so i used this command to fetch the file, from the platformio wiki:
+curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/system/99-platformio-udev.rules | sudo tee /etc/udev/rules.d/99-platformio-udev.rules
+
+
+Okay but what port do we actually need?
+You can find out what /dev port your ESP32 is listening at by using the command:
+`ttyACM0`
+It was `ttyACM0` for me
+
+
+Then i got the following error:
+`A fatal error occurred: Could not open /dev/ttyACM0, the port doesn't exist`
+You have to reset your system in order for `99-platformio-udev.rules` to kick in effect!
+
+
+Afterwards I was able to upload the data to my ESP32-S3-WROOM-1-N16R8!

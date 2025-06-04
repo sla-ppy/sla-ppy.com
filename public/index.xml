@@ -8,10 +8,17 @@
     <language>en</language>
     <managingEditor>sla-ppy-pm@protonmail.com (sla-ppy)</managingEditor>
     <webMaster>sla-ppy-pm@protonmail.com (sla-ppy)</webMaster>
-    <lastBuildDate>Sun, 01 Jun 2025 22:50:54 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 04 Jun 2025 18:07:59 +0200</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>GPIO1   Pull Up My Pants, This Not Easy</title>
+      <title>Lab Tour &amp; Mystery Parcel</title>
+      <link>//localhost:1313/posts/lab-tour--mystery-parcel/</link>
+      <pubDate>Wed, 04 Jun 2025 18:07:59 +0200</pubDate><author>sla-ppy-pm@protonmail.com (sla-ppy)</author>
+      <guid>//localhost:1313/posts/lab-tour--mystery-parcel/</guid>
+      <description>&lt;h1 id=&#34;lab-tour--mystery-parcel&#34;&gt;&lt;strong&gt;Lab Tour &amp;amp; Mystery Parcel&lt;/strong&gt;&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;da-lab&#34;&gt;&lt;strong&gt;Da Lab&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Naturally, as promised and with alot of excitement involved, I present to you!&#xA;The two main areas of where majority of my work happens, including their peripherals too:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/post_images/2/main_desk.jpg&#34; alt=&#34;/post_images/2/main_desk.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;(In hindsight, I didn&amp;rsquo;t have a second monitor before this journey. To cement the idea of change, I installed it with the help of my mother so I have a much easier time reading datasheets and documentation.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GPIO1 - Pull Up My Pants, This Not Easy</title>
       <link>//localhost:1313/posts/gpio1---pull-up-my-pants-this-not-easy/</link>
       <pubDate>Sun, 01 Jun 2025 22:50:54 +0200</pubDate><author>sla-ppy-pm@protonmail.com (sla-ppy)</author>
       <guid>//localhost:1313/posts/gpio1---pull-up-my-pants-this-not-easy/</guid>

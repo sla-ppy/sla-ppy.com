@@ -1,5 +1,5 @@
 +++
-title = "GPIO1   Pull Up My Pants, This Not Easy"
+title = "GPIO1 - Pull Up My Pants, This Not Easy"
 date = "2025-06-01T22:50:54+02:00"
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
 author = ""
@@ -9,7 +9,7 @@ tags = ["", ""]
 keywords = ["", ""]
 description = ""
 showFullContent = false
-readingTime = false
+readingTime = true
 hideComments = false
 +++
 
@@ -68,7 +68,7 @@ Uh, there is now a gaping hole in the other room, but let now move on to me bein
 My plans actually began on May 29th, and I wanted to share what I've been doing the past few days, too.\
 I hope you can forgive me! ;)
 
-![p2_img01.png](/p2_img01.png)
+![/post_images/1/p2_img01.png](/post_images/1/p2_img01.png)
 
 ---
 
