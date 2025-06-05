@@ -32,6 +32,18 @@ a:hover {
 }
 
 .logo:hover {
+    background: #A8D600;
+}
+
+.menu__trigger:hover {
+     color: #A8D600
+}
+
+.menu__dropdown {
+    min-width: 42vh;
     background: #0A0A0A;
-    color: #A786F3
+}
+
+.menu__dropdown a:hover {
+    color: #A8D600
 }
